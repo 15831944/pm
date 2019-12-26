@@ -1,21 +1,19 @@
-﻿using NanoFabric.IdentityServer.Interfaces.Repositories;
-using NanoFabric.IdentityServer.Interfaces.Services;
-using NanoFabric.IdentityServer.Repositories.ClientAggregate.InMemory;
-using NanoFabric.IdentityServer.Repositories.ResourceAggregate.InMemory;
-using NanoFabric.IdentityServer.Repositories.UserAggregate.InMemory;
-using NanoFabric.IdentityServer.Services;
-using IdentityServer4.Stores;
-using IdentityServer4.Validation;
+﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
-using System.Collections.Generic;
-using System.Text;
-using Microsoft.Extensions.Configuration;
 
 namespace NanoFabric.IdentityServer
 {
     public static class ServiceCollectionExtensions
     {
+        /// <summary>
+        /// 将 Plain Old Class Object 作为配置注册到容器中
+        /// </summary>
+        /// <typeparam name="TConfig"></typeparam>
+        /// <param name="services"></param>
+        /// <param name="configuration"></param>
+        /// <param name="pocoProvider"></param>
+        /// <returns></returns>
         public static TConfig ConfigurePOCO<TConfig>(this IServiceCollection services, IConfiguration configuration, Func<TConfig> pocoProvider) where TConfig : class
         {
             if (services == null) throw new ArgumentNullException(nameof(services));

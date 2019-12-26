@@ -8,6 +8,9 @@ namespace NanoFabric.IdentityServer.Repositories.ClientAggregate.InMemory
 {
     #pragma warning disable 1998
     //TODO Remove when we async
+    /// <summary>
+    /// 客户端仓储
+    /// </summary>
     public class ClientInMemoryRepository : IClientRepository
     {
         public async Task<Client> FindClientByIdAsync(string clientId)

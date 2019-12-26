@@ -1,5 +1,8 @@
 ﻿namespace NanoFabric.IdentityServer
 {
+    /// <summary>
+    /// 身份认证配置项
+    /// </summary>
     public class IdentityOptions
     {      
         /// <summary>

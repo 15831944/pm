@@ -17,6 +17,15 @@ namespace NanoFabric.Core
             _registryHost = registryHost;
         }
 
+        /// <summary>
+        /// 注册服务
+        /// </summary>
+        /// <param name="serviceName"></param>
+        /// <param name="version"></param>
+        /// <param name="uri"></param>
+        /// <param name="healthCheckUri"></param>
+        /// <param name="tags"></param>
+        /// <returns></returns>
         public async Task<RegistryInformation> RegisterServiceAsync(string serviceName, string version, Uri uri, Uri healthCheckUri = null, IEnumerable<string> tags = null)
         {
             var registryInformation = await _registryHost.RegisterServiceAsync(serviceName, version, uri, healthCheckUri, tags);
@@ -24,6 +33,11 @@ namespace NanoFabric.Core
             return registryInformation;
         }
 
+        /// <summary>
+        /// 注销服务
+        /// </summary>
+        /// <param name="serviceId"></param>
+        /// <returns></returns>
         public async Task<bool> DeregisterServiceAsync(string serviceId)
         {
             return await _registryHost.DeregisterServiceAsync(serviceId);

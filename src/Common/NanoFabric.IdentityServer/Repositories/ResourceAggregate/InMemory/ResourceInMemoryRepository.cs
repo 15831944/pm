@@ -7,6 +7,9 @@ using NanoFabric.IdentityServer.Interfaces.Repositories;
 
 namespace NanoFabric.IdentityServer.Repositories.ResourceAggregate.InMemory
 {
+    /// <summary>
+    /// ×ÊÔ´²Ö´¢Àà
+    /// </summary>
     public class ResourceInMemoryRepository : IResourceRepository
     {
         public Task<ApiResource> FindApiResourceAsync(string name)

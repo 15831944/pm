@@ -1,10 +1,13 @@
-﻿using System.Threading.Tasks;
-using IdentityServer4.Validation;
+﻿using IdentityServer4.Validation;
 using NanoFabric.IdentityServer.Interfaces.Services;
 using NanoFabric.IdentityServer.Utilities;
+using System.Threading.Tasks;
 
 namespace NanoFabric.IdentityServer.Services
 {
+    /// <summary>
+    /// 密码验证
+    /// </summary>
     public class ResourceOwnerPasswordValidator : IResourceOwnerPasswordValidator
     {
         public IUserService UserService { get; private set; }
@@ -20,7 +23,7 @@ namespace NanoFabric.IdentityServer.Services
             if (user != null)
             {
                 var claims = ClaimsUtility.GetClaims(user);
-                context.Result = new GrantValidationResult(user.Id.ToString(), "password",claims);
+                context.Result = new GrantValidationResult(user.Id.ToString(), "password", claims);
             }
         }
     }

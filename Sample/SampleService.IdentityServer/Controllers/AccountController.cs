@@ -9,7 +9,6 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using NanoFabric.IdentityServer.Interfaces.Services;
-using SampleService.IdentityServer;
 using SampleService.IdentityServer.Filter;
 using SampleService.IdentityServer.ViewModel;
 using System;

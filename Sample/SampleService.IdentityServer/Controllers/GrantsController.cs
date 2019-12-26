@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SampleService.IdentityServer.Filter;
 using SampleService.IdentityServer.ViewModel;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -14,7 +13,7 @@ using System.Threading.Tasks;
 namespace SampleService.IdentityServer.Controllers
 {
     /// <summary>
-    /// This sample controller allows a user to revoke grants given to clients
+    /// 这个示例控制器允许用户收回赋予给客户端的权限
     /// </summary>
     [SecurityHeaders]
     [Authorize]

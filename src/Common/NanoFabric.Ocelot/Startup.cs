@@ -18,6 +18,7 @@ using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
 using Ocelot.Provider.Consul;
 using Ocelot.Provider.Polly;
+using SkyWalking.AspNetCore;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -46,7 +47,7 @@ namespace NanoFabric.Ocelot
         {
             var authority = Configuration.GetValue<string>("Authority");
             var collectorUrl = Configuration.GetValue<string>("Skywalking:CollectorUrl");
-
+            // 身份认证配置
             Action<IdentityServerAuthenticationOptions> options = o =>
             {
                 o.Authority = authority;
@@ -90,11 +91,11 @@ namespace NanoFabric.Ocelot
                 x.UserName = opt.UserName;
             });
 
-            //services.AddSkyWalking(option =>
-            //{
-            //    option.DirectServers = collectorUrl;
-            //    option.ApplicationCode = "nanofabric_ocelot";
-            //});
+            services.AddSkyWalking(option =>
+            {
+                option.DirectServers = collectorUrl;
+                option.ApplicationCode = "nanofabric_ocelot";
+            });
         }
 
         // http://edi.wang/post/2017/11/1/use-nlog-aspnet-20
@@ -103,7 +104,7 @@ namespace NanoFabric.Ocelot
         {
             app.UseExceptionless(Configuration);
             env.ConfigureNLog($"{env.ContentRootPath}{ Path.DirectorySeparatorChar}nlog.config");
-            //add NLog to ASP.NET Core
+            // 添加日志组件
             loggerFactory.AddNLog();
             loggerFactory.AddExceptionless();
 
@@ -112,20 +113,19 @@ namespace NanoFabric.Ocelot
             app.UseOcelot().Wait();
             app.UseAppMetrics();
             ExceptionlessClient.Default.SubmittingEvent += Default_SubmittingEvent;
-
-            string tagName = "消息标签";//自定义标签
-            var data = new ExcDataParam() { Name = "请求参数", Data = new { Id = 001, Name = "张三" } };//自定义单个model
+            // 自定义标签
+            string tagName = "消息标签";
+            // 自定义单个model
+            var data = new ExcDataParam() { Name = "请求参数", Data = new { Id = 001, Name = "张三" } };
             var user = new ExcUserParam() { Id = "No0001", Name = "张善友", Email = "geffzhang@live.cn", Description = "高级开发工程师" };//用户信息
             var datas = new List<ExcDataParam>() {
                 new ExcDataParam(){
                     Name ="请求参数",
-                    Data =new { Id = 002, Name = "李四"
-                    }
+                    Data =new { Id = 002, Name = "李四" }
                 },
                 new ExcDataParam(){
                     Name ="返回结果",
-                    Data =new { Id = 003, Name = "王五"
-                    }
+                    Data =new { Id = 003, Name = "王五" }
                 }
             };
 

@@ -1,6 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using IdentityServer4.Stores;
+using System.Collections.Generic;
 using System.Threading.Tasks;
-using IdentityServer4.Stores;
 
 namespace NanoFabric.IdentityServer.Interfaces.Repositories
 {

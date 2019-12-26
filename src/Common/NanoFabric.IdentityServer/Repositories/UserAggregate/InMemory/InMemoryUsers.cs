@@ -1,10 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using NanoFabric.IdentityServer.Models;
 using NodaTime;
-using NanoFabric.IdentityServer.Models;
+using System.Collections.Generic;
 
 namespace NanoFabric.IdentityServer.Repositories.UserAggregate.InMemory
 {
+    /// <summary>
+    /// 内存中用户
+    /// </summary>
     public static class InMemoryUsers
     {
         public static List<User> Users = new List<User>

@@ -1,6 +1,4 @@
-﻿using NanoFabric.RegistryHost.ConsulRegistry;
-
-namespace NanoFabric.RegistryHost.ConsulRegistry
+﻿namespace NanoFabric.RegistryHost.ConsulRegistry
 {
     /// <summary>
     /// Consul服务发现选项
@@ -23,10 +21,13 @@ namespace NanoFabric.RegistryHost.ConsulRegistry
         public ConsulRegistryHostConfiguration Consul { get; set; }
 
         /// <summary>
-        /// 健康检查模板
+        /// 健康检查路由
         /// </summary>
         public string HealthCheckTemplate { get; set; }
 
+        /// <summary>
+        /// 端点
+        /// </summary>
         public string[] Endpoints { get; set; }
     }
 }

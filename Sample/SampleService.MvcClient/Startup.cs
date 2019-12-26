@@ -53,6 +53,7 @@ namespace SampleService.MvcClient
                options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
                options.Cookie.Name = "mvchybrid";
            })
+           // 使用 OpenId Connect 添加用户身份认证
            .AddOpenIdConnect("oidc", options =>
            {
                options.Authority = authority;

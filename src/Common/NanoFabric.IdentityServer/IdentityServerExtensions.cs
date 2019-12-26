@@ -8,12 +8,17 @@ using NanoFabric.IdentityServer.Repositories.ClientAggregate.InMemory;
 using NanoFabric.IdentityServer.Repositories.ResourceAggregate.InMemory;
 using NanoFabric.IdentityServer.Repositories.UserAggregate.InMemory;
 using NanoFabric.IdentityServer.Services;
-using StackExchange.Redis;
 
 namespace NanoFabric.IdentityServer
 {
     public static class IdentityServerExtensions
     {
+        /// <summary>
+        /// 添加微服务身份认证模块
+        /// </summary>
+        /// <param name="builder"></param>
+        /// <param name="config"></param>
+        /// <returns></returns>
         public static IIdentityServerBuilder AddNanoFabricIDS(this IIdentityServerBuilder builder, IConfigurationRoot config)
         {
             var option = builder.Services.ConfigurePOCO(config.GetSection("IdentityOptions"), () => new IdentityOptions());
@@ -28,6 +33,7 @@ namespace NanoFabric.IdentityServer
                  options.RedisConnectionString = option.Redis;
                  options.KeyPrefix = "ids_prefix";
              })
+             // 添加Redis缓存 
              .AddRedisCaching(options =>
              {
                  options.RedisConnectionString = option.Redis;

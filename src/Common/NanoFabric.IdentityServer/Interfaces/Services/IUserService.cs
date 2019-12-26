@@ -1,5 +1,4 @@
-﻿using NanoFabric.IdentityServer.Interfaces.Repositories;
-using NanoFabric.IdentityServer.Models;
+﻿using NanoFabric.IdentityServer.Models;
 using System.Collections.Generic;
 using System.Security.Claims;
 using System.Threading.Tasks;

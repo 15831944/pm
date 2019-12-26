@@ -5,11 +5,18 @@ using System.IO;
 
 namespace SampleService.Kestrel
 {
+    /// <summary>
+    /// 应用
+    /// </summary>
     public class Program
     {
         private const string defaultAddress = "http://localhost:9300";
         private const string addressKey = "serveraddress";
 
+        /// <summary>
+        /// 主方法
+        /// </summary>
+        /// <param name="args"></param>
         public static void Main(string[] args)
         {
             IWebHost host = BuildWebHost(args);
@@ -18,7 +25,7 @@ namespace SampleService.Kestrel
 
         private static IWebHost BuildWebHost(string[] args)
         {
-            var configurationBuilder = new Microsoft.Extensions.Configuration.ConfigurationBuilder()
+            var configurationBuilder = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
                 .AddJsonFile("appsettings.Development.json", true, false)

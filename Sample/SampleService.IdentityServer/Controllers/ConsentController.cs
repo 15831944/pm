@@ -9,7 +9,6 @@ using Microsoft.Extensions.Logging;
 using SampleService.IdentityServer.Filter;
 using SampleService.IdentityServer.ViewModel;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 

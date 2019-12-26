@@ -1,5 +1,4 @@
-﻿using IdentityServer4.Configuration;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -8,7 +7,6 @@ using NanoFabric.AspNetCore;
 using NanoFabric.IdentityServer;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
-using SkyWalking.AspNetCore;
 using System.IO;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -22,9 +20,10 @@ namespace SampleService.IdentityServer
 
         public Startup(IHostingEnvironment env)
         {
+            // 注册一个编码提供者
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             _environment = env;
-
+            // 设置配置文件
             var builder = new ConfigurationBuilder()
                 .SetBasePath(env.ContentRootPath)
                 .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
@@ -43,20 +42,22 @@ namespace SampleService.IdentityServer
 
             services.AddSingleton<IConfiguration>(Configuration);
             services.AddMvc()
+                // 添加JSON配置模块
                .AddJsonOptions(options =>
                {
                    options.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
                    options.SerializerSettings.DefaultValueHandling = DefaultValueHandling.Include;
                    options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
                    options.SerializerSettings.NullValueHandling = NullValueHandling.Ignore;
-
-               })  ;
+               });
+            // 添加Consul服务注册模块
             services.AddNanoFabricConsul(Configuration);
-
+            // 添加IdentityServer身份认证模块
             services.AddIdentityServer()
                 .AddSigningCredential(cert)
                 .AddNanoFabricIDS(Configuration);
 
+            // 添加跨域配置
             services.AddCors(options =>
             {
                 options.AddPolicy("CorsPolicy", corsBuilder =>

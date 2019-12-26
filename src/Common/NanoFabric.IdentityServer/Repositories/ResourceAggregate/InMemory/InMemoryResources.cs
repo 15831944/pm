@@ -4,10 +4,14 @@ using System.Collections.Generic;
 
 namespace NanoFabric.IdentityServer.Repositories.ResourceAggregate.InMemory
 {
+    /// <summary>
+    /// 内存资源类
+    /// </summary>
     public class InMemoryResources
     {
-
-        //API Resources
+        /// <summary>
+        /// API Resources
+        /// </summary>
         public static IEnumerable<ApiResource> ApiResources = new List<ApiResource>
         {
             new ApiResource
@@ -24,7 +28,6 @@ namespace NanoFabric.IdentityServer.Repositories.ResourceAggregate.InMemory
                         Description = "Scope for read",
                         DisplayName = "Posts.Read"
                     }
-
                 },
                 UserClaims =
                 {
@@ -51,7 +54,6 @@ namespace NanoFabric.IdentityServer.Repositories.ResourceAggregate.InMemory
                         Description = "Scope for writing",
                         DisplayName = "Posts.Write"
                     }
-
                 },
                 UserClaims =
                 {
@@ -105,7 +107,6 @@ namespace NanoFabric.IdentityServer.Repositories.ResourceAggregate.InMemory
                         Description = "Scope for deleting",
                         DisplayName = "Posts.Delete"
                     }
-
                 },
                 UserClaims =
                 {
@@ -124,7 +125,9 @@ namespace NanoFabric.IdentityServer.Repositories.ResourceAggregate.InMemory
                 }
         };
 
-        //Identity Resources
+        /// <summary>
+        /// Identity Resources
+        /// </summary>
         public static IEnumerable<IdentityResource> IdentityResources = new List<IdentityResource>
         {
             new IdentityResources.OpenId(),

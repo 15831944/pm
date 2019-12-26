@@ -16,11 +16,8 @@ namespace NanoFabric.AppMetrics
             Action<AppMetricsOptions> action)
         {
             var appMetricsConfig = new AppMetricsOptions();
-
             action(appMetricsConfig);
-
             var uri = new Uri(appMetricsConfig.ConnectionString);
-
             var metrics = App.Metrics.AppMetrics.CreateDefaultBuilder()
                 .Configuration.Configure(
                     options =>

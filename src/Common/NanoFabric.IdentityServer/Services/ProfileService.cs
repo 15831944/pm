@@ -8,11 +8,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace NanoFabric.IdentityServer.Services
 {
+    /// <summary>
+    /// 身份简述服务
+    /// </summary>
     public class ProfileService : IProfileService
     {
         private readonly IUserService _userManager;

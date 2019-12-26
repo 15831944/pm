@@ -1,10 +1,12 @@
-﻿using System.Collections.Generic;
-using IdentityServer4;
-using IdentityServer4.Models;
+﻿using IdentityServer4.Models;
+using System.Collections.Generic;
 using static IdentityServer4.IdentityServerConstants;
 
 namespace NanoFabric.IdentityServer.Repositories.ClientAggregate.InMemory
 {
+    /// <summary>
+    /// 内存中客户端
+    /// </summary>
     public class InMemoryClients
     {
         public static IEnumerable<Client> Clients = new List<Client>
@@ -21,7 +23,6 @@ namespace NanoFabric.IdentityServer.Repositories.ClientAggregate.InMemory
                     StandardScopes.OfflineAccess,
                     "api1"
                 }
-
             }
         };
     }

@@ -1,11 +1,14 @@
-﻿using System;
-using System.Globalization;
-using NodaTime;
-using NanoFabric.IdentityServer.Interfaces.Services;
+﻿using NanoFabric.IdentityServer.Interfaces.Services;
 using NanoFabric.IdentityServer.Utilities;
+using NodaTime;
+using System;
+using System.Globalization;
 
 namespace NanoFabric.IdentityServer.Services
 {
+    /// <summary>
+    /// 密码服务类
+    /// </summary>
     public class PasswordService : IPasswordService
     {
         private const int StartYear = 2000;
@@ -14,7 +17,6 @@ namespace NanoFabric.IdentityServer.Services
         private const int MinPasswordLength = 6;
         private const int MaxPasswordLength = 256;
         private const int IterationCount = 10000;
-
 
         public string HashPassword(string password)
         {

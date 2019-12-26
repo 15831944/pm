@@ -80,6 +80,8 @@ namespace NanoFabric.AspNetCore
 
         /// <summary>
         /// 实现检索域名服务的客户端，注册到容器中
+        /// 官方文档建议将 LookupClient 设置成单例，否则缓存和连接池这些促进性能特性将失效
+        /// 因为 LookupClient 是线程安全的，所以在多线程中使用单例不会有问题
         /// </summary>
         /// <param name="services"></param>
         /// <returns></returns>

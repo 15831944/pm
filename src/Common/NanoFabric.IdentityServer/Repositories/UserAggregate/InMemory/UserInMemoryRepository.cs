@@ -1,12 +1,13 @@
 ﻿using NanoFabric.IdentityServer.Interfaces.Repositories;
 using NanoFabric.IdentityServer.Models;
-using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-
 namespace NanoFabric.IdentityServer.Repositories.UserAggregate.InMemory
 {
+    /// <summary>
+    /// 用户仓储类
+    /// </summary>
     public class UserInMemoryRepository : IUserRepository
     {
         public Task AddAsync(User entity)

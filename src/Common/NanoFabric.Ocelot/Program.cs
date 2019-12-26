@@ -14,12 +14,13 @@ namespace NanoFabric.Ocelot
 
         public static void Main(string[] args)
         {
-            var configurationBuilder = new Microsoft.Extensions.Configuration.ConfigurationBuilder()
-           .SetBasePath(Directory.GetCurrentDirectory())
-           .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
-           .AddJsonFile("ocelot.json", true, false)
-           .AddEnvironmentVariables()
-           .AddCommandLine(args);
+            // 设置配置文件
+            var configurationBuilder = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+                .AddJsonFile("ocelot.json", true, false)
+                .AddEnvironmentVariables()
+                .AddCommandLine(args);
 
             if (args != null)
             {
