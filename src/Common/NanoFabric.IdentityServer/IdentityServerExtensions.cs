@@ -31,21 +31,19 @@ namespace NanoFabric.IdentityServer
             builder.AddOperationalStore(options =>
              {
                  options.RedisConnectionString = option.Redis;
-                 options.KeyPrefix = "ids_prefix";
+                 options.KeyPrefix = option.KeyPrefix;
              })
              // 添加Redis缓存 
              .AddRedisCaching(options =>
              {
                  options.RedisConnectionString = option.Redis;
              });
-            //services
+            // services
             builder.Services.AddTransient<IUserService, UserService>();
             builder.Services.AddTransient<IPasswordService, PasswordService>();
-            //validators
+            // validators
             builder.Services.AddTransient<IResourceOwnerPasswordValidator, ResourceOwnerPasswordValidator>();
-
             builder.AddProfileService<ProfileService>();
-
             return builder;
         }
 
@@ -56,7 +54,7 @@ namespace NanoFabric.IdentityServer
             builder.AddOperationalStore(options =>
             {
                 options.RedisConnectionString = option.Redis;
-                options.KeyPrefix = "ids_prefix";
+                options.KeyPrefix = option.KeyPrefix;
             })
              .AddRedisCaching(options =>
              {

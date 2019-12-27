@@ -83,7 +83,6 @@ namespace NanoFabric.IdentityServer.Services
         public async Task<bool> ValidateCredentialsAsync(string username, string password)
         {
             var user = await UserRepository.GetAsync(username, password);
-
             return user != null;
         }
     }

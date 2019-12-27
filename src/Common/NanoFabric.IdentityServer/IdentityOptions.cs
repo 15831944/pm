@@ -10,5 +10,9 @@
         /// </summary>
         public string Redis { get; set; }
 
+        /// <summary>
+        /// 保存在Redis中的每个key的前缀项
+        /// </summary>
+        public string KeyPrefix { get; set; }
     }
 }

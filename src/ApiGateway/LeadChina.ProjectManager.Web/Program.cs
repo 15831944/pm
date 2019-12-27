@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.IO;
 
@@ -9,28 +10,30 @@ namespace LeadChina.ProjectManager.Web
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
-        }
+            // 设置配置文件
+            var configurationBuilder = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+                .AddJsonFile("ocelot.json", true, false);
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    // 设置配置文件
-                    var configurationBuilder = new ConfigurationBuilder()
-                        .SetBasePath(Directory.GetCurrentDirectory())
-                        .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
-                        .AddJsonFile("ocelot.json", true, false);
-                    var hostingconfig = configurationBuilder.Build();
-                    var url = hostingconfig["serveraddress"];
-                    webBuilder.UseKestrel()
-                        .UseContentRoot(Directory.GetCurrentDirectory())
-                        .UseConfiguration(hostingconfig)
-                        .UseIISIntegration()
-                        .UseMetricsWebTracking()
-                        .UseMetricsEndpoints()
-                        .UseUrls(url)
-                        .UseStartup<Startup>();
-                });
+            var hostingconfig = configurationBuilder.Build();
+            var url = hostingconfig["serveraddress"];
+
+            IWebHostBuilder builder = new WebHostBuilder();
+            builder.ConfigureServices(s =>
+            {
+                s.AddSingleton(builder);
+            });
+            builder.UseKestrel()
+                .UseContentRoot(Directory.GetCurrentDirectory())
+                .UseConfiguration(hostingconfig)
+                .UseIISIntegration()
+                .UseMetricsWebTracking()
+                .UseMetricsEndpoints()
+                .UseUrls(url)
+                .UseStartup<Startup>();
+            var host = builder.Build();
+            host.Run();
+        }
     }
 }

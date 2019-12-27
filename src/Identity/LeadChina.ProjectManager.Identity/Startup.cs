@@ -2,22 +2,22 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using NanoFabric.Core.Json;
+using Microsoft.Extensions.Logging;
+using NanoFabric.AspNetCore;
+using NanoFabric.IdentityServer;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
+using SkyWalking.AspNetCore;
 using System.Text;
 
 namespace LeadChina.ProjectManager.Identity
 {
     public class Startup
     {
-        private readonly IWebHostEnvironment _environment;
-
-        public Startup(IWebHostEnvironment env)
+        public Startup(IHostingEnvironment env)
         {
             // 注册一个编码提供者
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
-            _environment = env;
             // 设置配置文件
             var builder = new ConfigurationBuilder()
                 .SetBasePath(env.ContentRootPath)
@@ -28,7 +28,7 @@ namespace LeadChina.ProjectManager.Identity
             Configuration = builder.Build();
         }
 
-        public IConfiguration Configuration { get; }
+        public IConfigurationRoot Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -43,33 +43,55 @@ namespace LeadChina.ProjectManager.Identity
                    options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
                    options.SerializerSettings.NullValueHandling = NullValueHandling.Ignore;
                });
+            // 添加Consul服务注册模块
+            services.AddNanoFabricConsul(Configuration);
+            // 添加IdentityServer身份认证模块
+            services.AddIdentityServer()
+                .AddNanoFabricIDS(Configuration);
+
+            // 添加跨域配置
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy", corsBuilder =>
+                {
+                    corsBuilder.AllowAnyHeader();
+                    corsBuilder.AllowAnyMethod();
+                    corsBuilder.AllowAnyOrigin();
+                    corsBuilder.AllowCredentials();
+                });
+            });
+
+            var collectorUrl = Configuration.GetValue<string>("Skywalking:CollectorUrl");
+            services.AddSkyWalking(option =>
+            {
+                option.DirectServers = collectorUrl;
+                option.ApplicationCode = "SampleService_Idserver";
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseBrowserLink();
             }
             else
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
             }
-            app.UseHttpsRedirection();
+            app.UseCors("CorsPolicy");
+            app.UseIdentityServer();
+            app.UseConsulRegisterService(Configuration);
+
             app.UseStaticFiles();
 
-            app.UseRouting();
-
-            app.UseAuthorization();
-
-            app.UseEndpoints(endpoints =>
+            app.UseMvc(routes =>
             {
-                endpoints.MapControllerRoute(
+                routes.MapRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }
