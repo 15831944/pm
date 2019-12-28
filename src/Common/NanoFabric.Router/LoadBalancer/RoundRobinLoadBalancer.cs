@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Linq;
-using NanoFabric.Core;
+﻿using NanoFabric.Core;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -22,17 +18,23 @@ namespace NanoFabric.Router
             _subscriber = subscriber;
         } 
 
-        public async Task<RegistryInformation> Endpoint(CancellationToken ct = default(CancellationToken))
+        /// <summary>
+        /// 获取注册信息
+        /// </summary>
+        /// <param name="ct"></param>
+        /// <returns></returns>
+        public async Task<RegistryInformation> Endpoint(CancellationToken ct = default)
         {
             var endpoints = await _subscriber.Endpoints(ct).ConfigureAwait(false);
             if (endpoints.Count == 0)
             {
                 return null;
             }
-
+            // 异步等待进入信号量
             await _lock.WaitAsync(ct).ConfigureAwait(false);
             try
             {
+                // 重置初始值
                 if (_index >= endpoints.Count)
                 {
                     _index = 0;

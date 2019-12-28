@@ -16,6 +16,12 @@ namespace NanoFabric.IdentityServer.Repositories.UserAggregate.InMemory
             return Task.FromResult(0);
         }
 
+        /// <summary>
+        /// 添加用户
+        /// </summary>
+        /// <param name="entity"></param>
+        /// <param name="password"></param>
+        /// <returns></returns>
         public Task AddAsync(User entity, string password)
         {
             InMemoryUsers.Users.Add(entity);

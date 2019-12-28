@@ -46,7 +46,7 @@ namespace NanoFabric.RegistryHost.ConsulRegistry
         public int Port { get; set; }
 
         /// <summary>
-        /// 获取网络节点对象
+        /// 获取包含地址和端口的网络节点对象
         /// </summary>
         /// <returns></returns>
         public IPEndPoint ToIPEndPoint()

@@ -3,19 +3,28 @@ using NanoFabric.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace NanoFabric.Router.Consul
 {
+    /// <summary>
+    /// Consul客户端扩展
+    /// </summary>
     public static class ConsulClientExtensions
     {
         private const string VERSION_PREFIX = "version-";
 
+        /// <summary>
+        /// 获取注册信息
+        /// </summary>
+        /// <param name="serviceEntry">服务入口</param>
+        /// <returns></returns>
         public static RegistryInformation ToEndpoint(this ServiceEntry serviceEntry)
         {
+            // 服务地址
             var host = !string.IsNullOrWhiteSpace(serviceEntry.Service.Address)
                 ? serviceEntry.Service.Address
                 : serviceEntry.Node.Address;
+            // 返回注册信息对象
             return new RegistryInformation
             {
                 Name = serviceEntry.Service.Service,
@@ -27,6 +36,11 @@ namespace NanoFabric.Router.Consul
             };
         }
 
+        /// <summary>
+        /// 根据标签获取版本
+        /// </summary>
+        /// <param name="strings"></param>
+        /// <returns></returns>
         private  static string GetVersionFromStrings(IEnumerable<string> strings)
         {
             return strings

@@ -80,6 +80,12 @@ namespace NanoFabric.IdentityServer.Services
            await  UserRepository.UpdateAsync(entity);
         }
 
+        /// <summary>
+        /// 验证用户名和密码
+        /// </summary>
+        /// <param name="username">用户名</param>
+        /// <param name="password">密码</param>
+        /// <returns></returns>
         public async Task<bool> ValidateCredentialsAsync(string username, string password)
         {
             var user = await UserRepository.GetAsync(username, password);

@@ -1,12 +1,14 @@
 ﻿using NanoFabric.Core;
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
 namespace NanoFabric.Router.Throttle
 {
+    /// <summary>
+    /// 限流服务订阅者
+    /// </summary>
     public class ThrottleServiceSubscriber : IServiceSubscriber
     {
         private bool _disposed;
@@ -21,24 +23,31 @@ namespace NanoFabric.Router.Throttle
         public ThrottleServiceSubscriber(IServiceSubscriber serviceSubscriber, int maxActions, TimeSpan maxPeriod)
         {
             _serviceSubscriber = serviceSubscriber;
+            // 信号量
             _throttleActions = new SemaphoreSlim(maxActions, maxActions);
             _throttlePeriods = new SemaphoreSlim(maxActions, maxActions);
             _maxPeriod = maxPeriod;
         }
 
-        public async Task<List<RegistryInformation>> Endpoints(CancellationToken ct = default(CancellationToken))
+        /// <summary>
+        /// 获取服务注册信息
+        /// </summary>
+        /// <param name="ct">取消通知</param>
+        /// <returns></returns>
+        public async Task<List<RegistryInformation>> Endpoints(CancellationToken ct = default)
         {
             if (_disposed)
             {
                 throw new ObjectDisposedException(nameof(Endpoints));
             }
-
+            // 异步等待进入信号量
             await _throttleActions.WaitAsync(ct).ConfigureAwait(false);
             try
             {
+                // 异步等待进入信号量
                 await _throttlePeriods.WaitAsync(ct).ConfigureAwait(false);
 
-                // Release after period
+                // 一周期后释放
                 // - Allow bursts up to maxActions requests at once
                 // - Do not allow more than maxActions requests per period
 #pragma warning disable 4014

@@ -1,10 +1,10 @@
 ﻿using NanoFabric.Router.Cache.Internal;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace NanoFabric.Router.Cache
 {
+    /// <summary>
+    /// 缓存服务订阅者工厂
+    /// </summary>
     public class CacheServiceSubscriberFactory : ICacheServiceSubscriberFactory
     {
         private readonly ICacheClient _cacheClient;
@@ -14,6 +14,11 @@ namespace NanoFabric.Router.Cache
             _cacheClient = cacheClient;
         }
 
+        /// <summary>
+        /// 创建订阅者
+        /// </summary>
+        /// <param name="serviceSubscriber"></param>
+        /// <returns></returns>
         public IPollingServiceSubscriber CreateSubscriber(IServiceSubscriber serviceSubscriber)
         {
             return new CacheServiceSubscriber(serviceSubscriber, _cacheClient);

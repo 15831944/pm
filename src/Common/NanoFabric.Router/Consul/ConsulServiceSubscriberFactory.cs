@@ -14,6 +14,13 @@ namespace NanoFabric.Router.Consul
             _consulClient = consulClient;
         }
 
+        /// <summary>
+        /// 创建订阅者
+        /// </summary>
+        /// <param name="serviceName">服务名</param>
+        /// <param name="consulOptions">Consul订阅者选项</param>
+        /// <param name="watch"></param>
+        /// <returns></returns>
         public IServiceSubscriber CreateSubscriber(string serviceName, ConsulSubscriberOptions consulOptions, bool watch = false)
         {
             return new ConsulServiceSubscriber(_consulClient, serviceName, consulOptions, watch);
