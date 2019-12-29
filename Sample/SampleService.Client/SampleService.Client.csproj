@@ -22,6 +22,8 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\src\Common\NanoFabric.AspNetCore\NanoFabric.AspNetCore.csproj" />
+    <ProjectReference Include="..\..\src\Common\NanoFabric.Infrastrue.Ibatis\NanoFabric.Infrastrue.Ibatis.csproj" />
+    <ProjectReference Include="..\..\src\Common\NanoFabric.Infrastrue.Mycat\NanoFabric.Infrastrue.Mycat.csproj" />
     <ProjectReference Include="..\..\src\Common\NanoFabric.Router\NanoFabric.Router.csproj" />
   </ItemGroup>
 </Project>

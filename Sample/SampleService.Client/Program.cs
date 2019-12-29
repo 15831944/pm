@@ -12,7 +12,7 @@ using System.IO;
 using System.Linq;
 using System.Net.Http;
 
-internal class Program
+public class Program
 {
     private readonly IDnsQuery _dns;
     private static ServiceProvider _serviceProvider;
@@ -83,7 +83,7 @@ internal class Program
     }
 }
 
-private class Blog
+class Blog
 {
     public long Id { get; set; }
 
@@ -93,10 +93,10 @@ private class Blog
 
     public DateTime Time { get; set; }
 
-    public JsonObject<List<string>> Tags { get; set; }
+    public List<string> Tags { get; set; }
 }
 
-private class SampleContext : DbContext
+class SampleContext : DbContext
 {
     public DbSet<Blog> Blogs { get; set; }
 
