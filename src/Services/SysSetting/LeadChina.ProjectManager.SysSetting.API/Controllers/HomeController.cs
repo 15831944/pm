@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using LeadChina.ProjectManager.SysSetting.API.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using LeadChina.ProjectManager.SysSetting.API.Models;
+using System.Diagnostics;
 
 namespace LeadChina.ProjectManager.SysSetting.API.Controllers
 {

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\NanoFabric.Core\NanoFabric.Core.csproj" />
+    <ProjectReference Include="..\..\..\Common\NanoFabric.Infrastrue.Mycat\NanoFabric.Infrastrue.Mycat.csproj" />
+    <ProjectReference Include="..\LeadChina.ProjectManager.SysSetting.Entity\LeadChina.ProjectManager.SysSetting.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

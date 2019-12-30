@@ -1,14 +1,12 @@
 ﻿using Nito.AsyncEx;
 using System;
-using System.Collections.Generic;
 using System.Reflection;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace NanoFabric.Core.Threading
 {
     /// <summary>
-    /// Provides some helper methods to work with async methods.
+    /// 为异步编程提供一些帮助方法
     /// </summary>
     public static class AsyncHelper
     {

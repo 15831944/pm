@@ -1,3 +1,7 @@
+using AutoMapper;
+using LeadChina.ProjectManager.SysSetting.BusiProcess;
+using LeadChina.ProjectManager.SysSetting.BusiProcess.Impl;
+using LeadChina.ProjectManager.SysSetting.BusiProcess.Mapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -5,6 +9,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using NanoFabric.AspNetCore;
 using NanoFabric.IdentityServer;
+using NanoFabric.Infrastrue.Mycat;
+using NanoFabric.Infrastrue.Mycat.Repository;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using SkyWalking.AspNetCore;
@@ -48,6 +54,19 @@ namespace LeadChina.ProjectManager.Identity
             // 添加IdentityServer身份认证模块
             services.AddIdentityServer()
                 .AddNanoFabricIDS(Configuration);
+
+            // Automapper 注入
+            // 添加服务
+            services.AddAutoMapper();
+            // 启动配置
+            AutoMapperConfig.RegisterMappings();
+            // .NET Core 原生依赖注入
+            // 单写一层用来添加依赖项，从展示层 Presentation 中隔离
+            services.AddDbContext<LeadChinaPMDbContext>();
+            services.AddScoped<LeadChinaPMDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IAccountRepository, AccountRepository>();
+            services.AddScoped<IAccountService, AccountService>();
 
             // 添加跨域配置
             services.AddCors(options =>

@@ -7,6 +7,7 @@ using IdentityServer4.Stores;
 using LeadChina.ProjectManager.Identity.Filter;
 using LeadChina.ProjectManager.Identity.Helper;
 using LeadChina.ProjectManager.Identity.ViewModel;
+using LeadChina.ProjectManager.SysSetting.BusiProcess;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -33,13 +34,15 @@ namespace LeadChina.ProjectManager.Identity.Controllers
         private readonly IClientStore _clientStore;
         private readonly IAuthenticationSchemeProvider _schemeProvider;
         private readonly IEventService _events;
+        private readonly IAccountService _accountService;
 
         public AccountController(
             IIdentityServerInteractionService interaction,
             IClientStore clientStore,
             IAuthenticationSchemeProvider schemeProvider,
             IEventService events,
-            IUserService users)
+            IUserService users,
+            IAccountService accountService)
         {
             // 如果TestUserStore不在DI容器中，我们将使用全局用户集
             // 在这里您可以插入自己的自定义身份管理库（例如：ASP.NET Identity）
@@ -50,6 +53,7 @@ namespace LeadChina.ProjectManager.Identity.Controllers
             _clientStore = clientStore;
             _schemeProvider = schemeProvider;
             _events = events;
+            _accountService = accountService;
         }
 
         /// <summary>
@@ -106,13 +110,16 @@ namespace LeadChina.ProjectManager.Identity.Controllers
 
             if (ModelState.IsValid)
             {
-                if (await _users.ValidateCredentialsAsync(model.Username, model.Password))
-                {
-                    var user = await _users.GetAsync(model.Username);
-                    await _events.RaiseAsync(new UserLoginSuccessEvent(user.Username, user.Id.ToString(), user.Username));
+                var user = _accountService.GetAcount(model.Username, model.Password);
 
-                    // 仅当用户选择“记住我”时才在此处设置显式过期
-                    // 否则，我们依赖于cookie中间件中配置的过期时间。
+                //if (await _users.ValidateCredentialsAsync(model.Username, model.Password))
+                if (user != null)
+                {
+                    //var user = await _users.GetAsync(model.Username);
+                    //await _events.RaiseAsync(new UserLoginSuccessEvent(user.Username, user.Id.ToString(), user.Username));
+                    await _events.RaiseAsync(new UserLoginSuccessEvent(user.AccountNo, user.Id.ToString(), user.AccountName));
+
+                    // 仅当用户选择“记住我”时才在此处设置显式过期，否则，我们依赖于cookie中间件中配置的过期时间。
                     AuthenticationProperties props = null;
                     if (AccountOptions.AllowRememberLogin && model.RememberLogin)
                     {
@@ -124,7 +131,8 @@ namespace LeadChina.ProjectManager.Identity.Controllers
                     };
 
                     // 使用用户Id和用户名称发出验证cookie
-                    await HttpContext.SignInAsync(user.Id.ToString(), user.Username, props);
+                    //await HttpContext.SignInAsync(user.Id.ToString(), user.Username, props);
+                    await HttpContext.SignInAsync(user.Id.ToString(), user.AccountName, props);
 
                     if (context != null)
                     {
@@ -234,13 +242,13 @@ namespace LeadChina.ProjectManager.Identity.Controllers
 
             var schemes = await _schemeProvider.GetAllSchemesAsync();
 
-            var providers = schemes.Where(x => x.DisplayName != null || 
+            var providers = schemes.Where(x => x.DisplayName != null ||
                 x.Name.Equals(AccountOptions.WindowsAuthenticationSchemeName, StringComparison.OrdinalIgnoreCase)
             ).Select(x => new ExternalProvider
-                {
-                    DisplayName = x.DisplayName,
-                    AuthenticationScheme = x.Name
-                }
+            {
+                DisplayName = x.DisplayName,
+                AuthenticationScheme = x.Name
+            }
             ).ToList();
 
             var allowLocal = true;
