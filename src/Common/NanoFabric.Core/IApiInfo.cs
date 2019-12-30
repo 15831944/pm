@@ -39,11 +39,7 @@ namespace NanoFabric.Core
         public string Secret { get; }
         public string Realm { get;  }
 
-        public SwaggerAuthInfo(
-            string clientId, 
-            string secret, 
-            string realm
-            )
+        public SwaggerAuthInfo(string clientId, string secret, string realm)
         {
             ClientId = clientId;
             Secret = secret;

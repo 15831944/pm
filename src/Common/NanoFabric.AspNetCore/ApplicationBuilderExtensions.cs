@@ -160,6 +160,11 @@ namespace NanoFabric.AspNetCore
                 .Result;
         }
 
+        /// <summary>
+        /// 跨域策略
+        /// </summary>
+        /// <param name="app"></param>
+        /// <returns></returns>
         public static IApplicationBuilder UsePermissiveCors(this IApplicationBuilder app)
             => app.UseCors("PermissiveCorsPolicy");
     }

@@ -1,5 +1,3 @@
-using System;
-
 namespace LeadChina.ProjectManager.SysSetting.API.Models
 {
     public class ErrorViewModel

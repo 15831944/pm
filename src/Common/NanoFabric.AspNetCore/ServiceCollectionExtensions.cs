@@ -18,11 +18,10 @@ namespace NanoFabric.AspNetCore
 {
     public static class ServiceCollectionExtensions
     {
-        public static IServiceCollection AddCustomIdentity(
-           this IServiceCollection services,
-           IApiInfo apiInfo
-           )
+        public static IServiceCollection AddCustomIdentity(this IServiceCollection services,
+           IApiInfo apiInfo)
         {
+            // 清除jwt声明
             JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
             services.AddAuthentication(IdentityServerAuthenticationDefaults.AuthenticationScheme)
                 .AddIdentityServerAuthentication(options =>
@@ -124,9 +123,7 @@ namespace NanoFabric.AspNetCore
             return services;
         }
 
-        public static IServiceCollection AddPermissiveCors(
-           this IServiceCollection services
-       )
+        public static IServiceCollection AddPermissiveCors(this IServiceCollection services)
         {
             services.AddCors(options =>
            {

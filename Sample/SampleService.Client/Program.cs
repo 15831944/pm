@@ -1,5 +1,4 @@
 ﻿using DnsClient;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -7,9 +6,7 @@ using NanoFabric.Router;
 using NanoFabric.Router.Consul;
 using NanoFabric.Router.Throttle;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Net.Http;
 
 public class Program
@@ -19,7 +16,7 @@ public class Program
 
     private static void Main(string[] args)
     {
-        
+        Demo1();
         Console.ReadLine();
     }
 
@@ -70,43 +67,5 @@ public class Program
         // 获取请求响应
         var content = httpClient.GetStringAsync($"{endPoint.ToUri()}api/values").Result;
         Console.WriteLine($"{traceid} 响应内容: { content }");
-    }
-
-    private static void Demo2()
-    {
-        var DB = new SampleContext();
-        DB.Database.EnsureCreated();
-        for (var i = 0; i < 50; i++)
-            DB.Blogs.Add(new Blog { Title = "Hello", Time = DateTime.Now, Content = "MyCat" });
-        DB.SaveChanges();
-        Console.WriteLine(DB.Blogs.Count());
-    }
-}
-
-class Blog
-{
-    public long Id { get; set; }
-
-    public string Title { get; set; }
-
-    public string Content { get; set; }
-
-    public DateTime Time { get; set; }
-
-    public List<string> Tags { get; set; }
-}
-
-class SampleContext : DbContext
-{
-    public DbSet<Blog> Blogs { get; set; }
-
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        base.OnConfiguring(optionsBuilder);
-
-        optionsBuilder
-            .UseMyCat("server=192.168.0.102;port=8066;uid=test;pwd=test;database=blog")
-            .UseDataNode("192.168.0.102", "mycatblog1", "root", "19931101")
-            .UseDataNode("192.168.0.102", "mycatblog2", "root", "19931101");
     }
 }

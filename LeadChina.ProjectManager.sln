@@ -52,7 +52,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NanoFabric.Router.Tests", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AE760A22-D5B1-4D55-B108-D116876FFD62}"
 	ProjectSection(SolutionItems) = preProject
-		..\nano_start.bat = ..\nano_start.bat
+		tools\nano_start.bat = tools\nano_start.bat
+		tools\nano_start_demo.bat = tools\nano_start_demo.bat
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleService.Kestrel", "Sample\SampleService.Kestrel\SampleService.Kestrel.csproj", "{8DA111E1-1A1C-49D3-A4C5-87F1FBE9A020}"
@@ -83,7 +84,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SysSetting", "SysSetting", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeadChina.ProjectManager.SysSetting.BusiProcess", "src\Services\SysSetting\LeadChina.ProjectManager.SysSetting.BusiProcess\LeadChina.ProjectManager.SysSetting.BusiProcess.csproj", "{4933CD93-A39F-4855-93C8-7D09BBC83A44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeadChina.ProjectManager.Entity", "src\Common\LeadChina.ProjectManager.Entity\LeadChina.ProjectManager.Entity.csproj", "{4D9DC8CB-ACFA-49AF-A4A0-563EA134A533}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeadChina.ProjectManager.Entity", "src\Common\LeadChina.ProjectManager.Entity\LeadChina.ProjectManager.Entity.csproj", "{4D9DC8CB-ACFA-49AF-A4A0-563EA134A533}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

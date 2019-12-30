@@ -42,10 +42,14 @@ namespace NanoFabric.Swagger
                 options.OperationFilter<DescriptionOperationFilter>();
             });
 
-        public static IApplicationBuilder UseCustomSwagger(
-            this IApplicationBuilder app,
-            IApiInfo apiInfo
-            ) => app.UseSwagger(c =>
+        /// <summary>
+        /// 自定义Swagger
+        /// </summary>
+        /// <param name="app"></param>
+        /// <param name="apiInfo"></param>
+        /// <returns></returns>
+        public static IApplicationBuilder UseCustomSwagger(this IApplicationBuilder app,
+            IApiInfo apiInfo) => app.UseSwagger(c =>
             {
                 c.PreSerializeFilters.Add((swagger, httpReq) => swagger.Host = httpReq.Host.Value);
             })

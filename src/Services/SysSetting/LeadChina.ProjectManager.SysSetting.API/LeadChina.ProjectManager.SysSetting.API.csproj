@@ -16,7 +16,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\Common\NanoFabric.AspNetCore\NanoFabric.AspNetCore.csproj" />
+    <ProjectReference Include="..\..\..\Common\NanoFabric.Mediatr\NanoFabric.Mediatr.csproj" />
     <ProjectReference Include="..\..\..\Common\NanoFabric.Router\NanoFabric.Router.csproj" />
+    <ProjectReference Include="..\..\..\Common\NanoFabric.Swagger\NanoFabric.Swagger.csproj" />
     <ProjectReference Include="..\LeadChina.ProjectManager.SysSetting.BusiProcess\LeadChina.ProjectManager.SysSetting.BusiProcess.csproj" />
   </ItemGroup>
 
