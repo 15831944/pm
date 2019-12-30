@@ -1,0 +1,1068 @@
+STATUS | wrapper  | 2019/12/19 15:23:30 | Mycat-server installed.
+STATUS | wrapper  | 2019/12/19 15:24:10 | Starting the Mycat-server service...
+STATUS | wrapper  | 2019/12/19 15:24:10 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/19 15:24:10 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/19 15:24:11 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/19 15:24:11 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/19 15:24:11 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/19 15:24:11 | 
+INFO   | jvm 1    | 2019/12/19 15:24:14 | MyCAT Server startup successfully. see logs in logs/mycat.log
+INFO   | wrapper  | 2019/12/19 15:24:15 | Waiting to start...
+STATUS | wrapper  | 2019/12/19 15:24:16 | Mycat-server started.
+STATUS | wrapper  | 2019/12/19 15:25:12 | The Mycat-server Service is installed.
+STATUS | wrapper  | 2019/12/19 15:25:12 |   Start Type: Automatic
+STATUS | wrapper  | 2019/12/19 15:25:12 |   Interactive: No
+STATUS | wrapper  | 2019/12/19 15:25:12 |   Running: Yes
+STATUS | wrapper  | 2019/12/19 16:10:58 | The Mycat-server Service is installed.
+STATUS | wrapper  | 2019/12/19 16:10:58 |   Start Type: Automatic
+STATUS | wrapper  | 2019/12/19 16:10:58 |   Interactive: No
+STATUS | wrapper  | 2019/12/19 16:10:58 |   Running: Yes
+STATUS | wrapper  | 2019/12/19 16:12:46 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2019/12/19 16:12:47 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/19 16:12:49 | Mycat-server stopped.
+STATUS | wrapper  | 2019/12/19 16:12:49 | Starting the Mycat-server service...
+STATUS | wrapper  | 2019/12/19 16:12:49 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/19 16:12:49 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/19 16:12:50 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/19 16:12:50 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/19 16:12:50 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/19 16:12:50 | 
+INFO   | jvm 1    | 2019/12/19 16:12:51 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/19 16:12:53 | Mycat-server started.
+STATUS | wrapper  | 2019/12/19 16:17:01 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2019/12/19 16:17:03 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/19 16:17:04 | Mycat-server stopped.
+STATUS | wrapper  | 2019/12/19 16:23:02 | Starting the Mycat-server service...
+STATUS | wrapper  | 2019/12/19 16:23:02 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/19 16:23:02 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/19 16:23:03 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/19 16:23:03 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/19 16:23:03 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/19 16:23:03 | 
+STATUS | wrapper  | 2019/12/19 16:23:07 | Mycat-server started.
+INFO   | jvm 1    | 2019/12/19 16:23:07 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/19 16:44:43 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2019/12/19 16:44:45 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/19 16:44:47 | Mycat-server stopped.
+STATUS | wrapper  | 2019/12/19 16:44:47 | Starting the Mycat-server service...
+STATUS | wrapper  | 2019/12/19 16:44:47 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/19 16:44:47 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/19 16:44:48 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/19 16:44:48 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/19 16:44:48 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/19 16:44:48 | 
+INFO   | jvm 1    | 2019/12/19 16:44:49 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/19 16:44:51 | Mycat-server started.
+STATUS | wrapper  | 2019/12/19 18:52:47 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2019/12/19 18:52:49 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/19 18:52:50 | Mycat-server stopped.
+STATUS | wrapper  | 2019/12/19 21:56:06 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/19 21:56:07 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/19 21:56:13 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/19 21:56:13 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/19 21:56:13 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/19 21:56:13 | 
+STATUS | wrapper  | 2019/12/19 21:56:41 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/19 21:56:44 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/20 04:16:45 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/20 04:16:46 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/20 04:16:52 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/20 04:16:52 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/20 04:16:52 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/20 04:16:52 | 
+INFO   | jvm 1    | 2019/12/20 04:17:39 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/20 05:31:03 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/20 05:31:06 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/20 05:31:53 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/20 05:31:53 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/20 05:32:03 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/20 05:32:03 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/20 05:32:03 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/20 05:32:03 | 
+INFO   | jvm 1    | 2019/12/20 05:32:08 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/20 06:51:47 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/20 06:51:50 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/20 08:05:21 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/20 08:05:22 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/20 08:05:28 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/20 08:05:28 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/20 08:05:28 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/20 08:05:28 | 
+INFO   | jvm 1    | 2019/12/20 08:05:36 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/20 08:16:34 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/20 08:16:36 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/20 08:17:30 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/20 08:17:30 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/20 08:17:36 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/20 08:17:36 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/20 08:17:36 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/20 08:17:36 | 
+INFO   | jvm 1    | 2019/12/20 08:17:45 | MyCAT Server startup successfully. see logs in logs/mycat.log
+ERROR  | wrapper  | 2019/12/20 08:48:12 | The Mycat-server service is already running with status: RUNNING
+STATUS | wrapper  | 2019/12/20 08:48:43 | The Mycat-server Service is installed.
+STATUS | wrapper  | 2019/12/20 08:48:43 |   Start Type: Automatic
+STATUS | wrapper  | 2019/12/20 08:48:43 |   Interactive: No
+STATUS | wrapper  | 2019/12/20 08:48:43 |   Running: Yes
+STATUS | wrapper  | 2019/12/20 08:50:06 | The Mycat-server Service is installed.
+STATUS | wrapper  | 2019/12/20 08:50:06 |   Start Type: Automatic
+STATUS | wrapper  | 2019/12/20 08:50:06 |   Interactive: No
+STATUS | wrapper  | 2019/12/20 08:50:06 |   Running: Yes
+STATUS | wrapper  | 2019/12/20 08:50:42 | --> Wrapper Started as Console
+STATUS | wrapper  | 2019/12/20 08:50:43 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/20 08:50:44 | 错误: 代理抛出异常错误: java.rmi.server.ExportException: Port already in use: 1984; nested exception is: 
+INFO   | jvm 1    | 2019/12/20 08:50:44 | 	java.net.BindException: Address already in use: NET_Bind
+INFO   | jvm 1    | 2019/12/20 08:50:44 | jdk.internal.agent.AgentConfigurationError: java.rmi.server.ExportException: Port already in use: 1984; nested exception is: 
+INFO   | jvm 1    | 2019/12/20 08:50:44 | 	java.net.BindException: Address already in use: NET_Bind
+INFO   | jvm 1    | 2019/12/20 08:50:44 | 	at jdk.management.agent/sun.management.jmxremote.ConnectorBootstrap.startRemoteConnectorServer(ConnectorBootstrap.java:484)
+INFO   | jvm 1    | 2019/12/20 08:50:44 | 	at jdk.management.agent/jdk.internal.agent.Agent.startAgent(Agent.java:450)
+INFO   | jvm 1    | 2019/12/20 08:50:44 | 	at jdk.management.agent/jdk.internal.agent.Agent.startAgent(Agent.java:621)
+INFO   | jvm 1    | 2019/12/20 08:50:44 | Caused by: java.rmi.server.ExportException: Port already in use: 1984; nested exception is: 
+INFO   | jvm 1    | 2019/12/20 08:50:44 | 	java.net.BindException: Address already in use: NET_Bind
+INFO   | jvm 1    | 2019/12/20 08:50:44 | 	at java.rmi/sun.rmi.transport.tcp.TCPTransport.listen(TCPTransport.java:340)
+INFO   | jvm 1    | 2019/12/20 08:50:44 | 	at java.rmi/sun.rmi.transport.tcp.TCPTransport.exportObject(TCPTransport.java:248)
+INFO   | jvm 1    | 2019/12/20 08:50:44 | 	at java.rmi/sun.rmi.transport.tcp.TCPEndpoint.exportObject(TCPEndpoint.java:411)
+INFO   | jvm 1    | 2019/12/20 08:50:44 | 	at java.rmi/sun.rmi.transport.LiveRef.exportObject(LiveRef.java:147)
+INFO   | jvm 1    | 2019/12/20 08:50:44 | 	at java.rmi/sun.rmi.server.UnicastServerRef.exportObject(UnicastServerRef.java:233)
+INFO   | jvm 1    | 2019/12/20 08:50:44 | 	at java.rmi/sun.rmi.registry.RegistryImpl.setup(RegistryImpl.java:220)
+INFO   | jvm 1    | 2019/12/20 08:50:44 | 	at java.rmi/sun.rmi.registry.RegistryImpl.<init>(RegistryImpl.java:180)
+INFO   | jvm 1    | 2019/12/20 08:50:44 | 	at jdk.management.agent/sun.management.jmxremote.SingleEntryRegistry.<init>(SingleEntryRegistry.java:49)
+INFO   | jvm 1    | 2019/12/20 08:50:44 | 	at jdk.management.agent/sun.management.jmxremote.ConnectorBootstrap.exportMBeanServer(ConnectorBootstrap.java:827)
+INFO   | jvm 1    | 2019/12/20 08:50:44 | 	at jdk.management.agent/sun.management.jmxremote.ConnectorBootstrap.startRemoteConnectorServer(ConnectorBootstrap.java:472)
+INFO   | jvm 1    | 2019/12/20 08:50:44 | 	... 2 more
+INFO   | jvm 1    | 2019/12/20 08:50:44 | Caused by: java.net.BindException: Address already in use: NET_Bind
+INFO   | jvm 1    | 2019/12/20 08:50:44 | 	at java.base/java.net.DualStackPlainSocketImpl.bind0(Native Method)
+INFO   | jvm 1    | 2019/12/20 08:50:44 | 	at java.base/java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+INFO   | jvm 1    | 2019/12/20 08:50:44 | 	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:437)
+INFO   | jvm 1    | 2019/12/20 08:50:44 | 	at java.base/java.net.PlainSocketImpl.bind(PlainSocketImpl.java:174)
+INFO   | jvm 1    | 2019/12/20 08:50:44 | 	at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+INFO   | jvm 1    | 2019/12/20 08:50:44 | 	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+INFO   | jvm 1    | 2019/12/20 08:50:44 | 	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:135)
+INFO   | jvm 1    | 2019/12/20 08:50:44 | 	at java.rmi/sun.rmi.transport.tcp.TCPDirectSocketFactory.createServerSocket(TCPDirectSocketFactory.java:45)
+INFO   | jvm 1    | 2019/12/20 08:50:44 | 	at java.rmi/sun.rmi.transport.tcp.TCPEndpoint.newServerSocket(TCPEndpoint.java:666)
+INFO   | jvm 1    | 2019/12/20 08:50:44 | 	at java.rmi/sun.rmi.transport.tcp.TCPTransport.listen(TCPTransport.java:329)
+INFO   | jvm 1    | 2019/12/20 08:50:44 | 	... 11 more
+INFO   | jvm 1    | 2019/12/20 08:50:45 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+ERROR  | wrapper  | 2019/12/20 08:50:45 | JVM exited while loading the application.
+STATUS | wrapper  | 2019/12/20 08:50:49 | Launching a JVM...
+INFO   | jvm 2    | 2019/12/20 08:50:50 | 错误: 代理抛出异常错误: java.rmi.server.ExportException: Port already in use: 1984; nested exception is: 
+INFO   | jvm 2    | 2019/12/20 08:50:50 | 	java.net.BindException: Address already in use: NET_Bind
+INFO   | jvm 2    | 2019/12/20 08:50:50 | jdk.internal.agent.AgentConfigurationError: java.rmi.server.ExportException: Port already in use: 1984; nested exception is: 
+INFO   | jvm 2    | 2019/12/20 08:50:50 | 	java.net.BindException: Address already in use: NET_Bind
+INFO   | jvm 2    | 2019/12/20 08:50:50 | 	at jdk.management.agent/sun.management.jmxremote.ConnectorBootstrap.startRemoteConnectorServer(ConnectorBootstrap.java:484)
+INFO   | jvm 2    | 2019/12/20 08:50:50 | 	at jdk.management.agent/jdk.internal.agent.Agent.startAgent(Agent.java:450)
+INFO   | jvm 2    | 2019/12/20 08:50:50 | 	at jdk.management.agent/jdk.internal.agent.Agent.startAgent(Agent.java:621)
+INFO   | jvm 2    | 2019/12/20 08:50:50 | Caused by: java.rmi.server.ExportException: Port already in use: 1984; nested exception is: 
+INFO   | jvm 2    | 2019/12/20 08:50:50 | 	java.net.BindException: Address already in use: NET_Bind
+INFO   | jvm 2    | 2019/12/20 08:50:50 | 	at java.rmi/sun.rmi.transport.tcp.TCPTransport.listen(TCPTransport.java:340)
+INFO   | jvm 2    | 2019/12/20 08:50:50 | 	at java.rmi/sun.rmi.transport.tcp.TCPTransport.exportObject(TCPTransport.java:248)
+INFO   | jvm 2    | 2019/12/20 08:50:50 | 	at java.rmi/sun.rmi.transport.tcp.TCPEndpoint.exportObject(TCPEndpoint.java:411)
+INFO   | jvm 2    | 2019/12/20 08:50:50 | 	at java.rmi/sun.rmi.transport.LiveRef.exportObject(LiveRef.java:147)
+INFO   | jvm 2    | 2019/12/20 08:50:50 | 	at java.rmi/sun.rmi.server.UnicastServerRef.exportObject(UnicastServerRef.java:233)
+INFO   | jvm 2    | 2019/12/20 08:50:50 | 	at java.rmi/sun.rmi.registry.RegistryImpl.setup(RegistryImpl.java:220)
+INFO   | jvm 2    | 2019/12/20 08:50:50 | 	at java.rmi/sun.rmi.registry.RegistryImpl.<init>(RegistryImpl.java:180)
+INFO   | jvm 2    | 2019/12/20 08:50:50 | 	at jdk.management.agent/sun.management.jmxremote.SingleEntryRegistry.<init>(SingleEntryRegistry.java:49)
+INFO   | jvm 2    | 2019/12/20 08:50:50 | 	at jdk.management.agent/sun.management.jmxremote.ConnectorBootstrap.exportMBeanServer(ConnectorBootstrap.java:827)
+INFO   | jvm 2    | 2019/12/20 08:50:50 | 	at jdk.management.agent/sun.management.jmxremote.ConnectorBootstrap.startRemoteConnectorServer(ConnectorBootstrap.java:472)
+INFO   | jvm 2    | 2019/12/20 08:50:50 | 	... 2 more
+INFO   | jvm 2    | 2019/12/20 08:50:50 | Caused by: java.net.BindException: Address already in use: NET_Bind
+INFO   | jvm 2    | 2019/12/20 08:50:50 | 	at java.base/java.net.DualStackPlainSocketImpl.bind0(Native Method)
+INFO   | jvm 2    | 2019/12/20 08:50:50 | 	at java.base/java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+INFO   | jvm 2    | 2019/12/20 08:50:50 | 	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:437)
+INFO   | jvm 2    | 2019/12/20 08:50:50 | 	at java.base/java.net.PlainSocketImpl.bind(PlainSocketImpl.java:174)
+INFO   | jvm 2    | 2019/12/20 08:50:50 | 	at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+INFO   | jvm 2    | 2019/12/20 08:50:50 | 	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+INFO   | jvm 2    | 2019/12/20 08:50:50 | 	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:135)
+INFO   | jvm 2    | 2019/12/20 08:50:50 | 	at java.rmi/sun.rmi.transport.tcp.TCPDirectSocketFactory.createServerSocket(TCPDirectSocketFactory.java:45)
+INFO   | jvm 2    | 2019/12/20 08:50:50 | 	at java.rmi/sun.rmi.transport.tcp.TCPEndpoint.newServerSocket(TCPEndpoint.java:666)
+INFO   | jvm 2    | 2019/12/20 08:50:50 | 	at java.rmi/sun.rmi.transport.tcp.TCPTransport.listen(TCPTransport.java:329)
+INFO   | jvm 2    | 2019/12/20 08:50:50 | 	... 11 more
+INFO   | jvm 2    | 2019/12/20 08:50:50 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+ERROR  | wrapper  | 2019/12/20 08:50:50 | JVM exited while loading the application.
+STATUS | wrapper  | 2019/12/20 08:50:54 | Launching a JVM...
+INFO   | jvm 3    | 2019/12/20 08:50:55 | 错误: 代理抛出异常错误
+INFO   | jvm 3    | 2019/12/20 08:50:55 | : java.rmi.server.ExportException: Port already in use: 1984; nested exception is: 
+INFO   | jvm 3    | 2019/12/20 08:50:55 | 	java.net.BindException: Address already in use: NET_Bind
+INFO   | jvm 3    | 2019/12/20 08:50:55 | jdk.internal.agent.AgentConfigurationError: java.rmi.server.ExportException: Port already in use: 1984; nested exception is: 
+INFO   | jvm 3    | 2019/12/20 08:50:55 | 	java.net.BindException: Address already in use: NET_Bind
+INFO   | jvm 3    | 2019/12/20 08:50:55 | 	at jdk.management.agent/sun.management.jmxremote.ConnectorBootstrap.startRemoteConnectorServer(ConnectorBootstrap.java:484)
+INFO   | jvm 3    | 2019/12/20 08:50:55 | 	at jdk.management.agent/jdk.internal.agent.Agent.startAgent(Agent.java:450)
+INFO   | jvm 3    | 2019/12/20 08:50:55 | 	at jdk.management.agent/jdk.internal.agent.Agent.startAgent(Agent.java:621)
+INFO   | jvm 3    | 2019/12/20 08:50:55 | Caused by: java.rmi.server.ExportException: Port already in use: 1984; nested exception is: 
+INFO   | jvm 3    | 2019/12/20 08:50:55 | 	java.net.BindException: Address already in use: NET_Bind
+INFO   | jvm 3    | 2019/12/20 08:50:55 | 	at java.rmi/sun.rmi.transport.tcp.TCPTransport.listen(TCPTransport.java:340)
+INFO   | jvm 3    | 2019/12/20 08:50:55 | 	at java.rmi/sun.rmi.transport.tcp.TCPTransport.exportObject(TCPTransport.java:248)
+INFO   | jvm 3    | 2019/12/20 08:50:55 | 	at java.rmi/sun.rmi.transport.tcp.TCPEndpoint.exportObject(TCPEndpoint.java:411)
+INFO   | jvm 3    | 2019/12/20 08:50:55 | 	at java.rmi/sun.rmi.transport.LiveRef.exportObject(LiveRef.java:147)
+INFO   | jvm 3    | 2019/12/20 08:50:55 | 	at java.rmi/sun.rmi.server.UnicastServerRef.exportObject(UnicastServerRef.java:233)
+INFO   | jvm 3    | 2019/12/20 08:50:55 | 	at java.rmi/sun.rmi.registry.RegistryImpl.setup(RegistryImpl.java:220)
+INFO   | jvm 3    | 2019/12/20 08:50:55 | 	at java.rmi/sun.rmi.registry.RegistryImpl.<init>(RegistryImpl.java:180)
+INFO   | jvm 3    | 2019/12/20 08:50:55 | 	at jdk.management.agent/sun.management.jmxremote.SingleEntryRegistry.<init>(SingleEntryRegistry.java:49)
+INFO   | jvm 3    | 2019/12/20 08:50:55 | 	at jdk.management.agent/sun.management.jmxremote.ConnectorBootstrap.exportMBeanServer(ConnectorBootstrap.java:827)
+INFO   | jvm 3    | 2019/12/20 08:50:55 | 	at jdk.management.agent/sun.management.jmxremote.ConnectorBootstrap.startRemoteConnectorServer(ConnectorBootstrap.java:472)
+INFO   | jvm 3    | 2019/12/20 08:50:55 | 	... 2 more
+INFO   | jvm 3    | 2019/12/20 08:50:55 | Caused by: java.net.BindException: Address already in use: NET_Bind
+INFO   | jvm 3    | 2019/12/20 08:50:55 | 	at java.base/java.net.DualStackPlainSocketImpl.bind0(Native Method)
+INFO   | jvm 3    | 2019/12/20 08:50:55 | 	at java.base/java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+INFO   | jvm 3    | 2019/12/20 08:50:55 | 	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:437)
+INFO   | jvm 3    | 2019/12/20 08:50:55 | 	at java.base/java.net.PlainSocketImpl.bind(PlainSocketImpl.java:174)
+INFO   | jvm 3    | 2019/12/20 08:50:55 | 	at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+INFO   | jvm 3    | 2019/12/20 08:50:55 | 	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+INFO   | jvm 3    | 2019/12/20 08:50:55 | 	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:135)
+INFO   | jvm 3    | 2019/12/20 08:50:55 | 	at java.rmi/sun.rmi.transport.tcp.TCPDirectSocketFactory.createServerSocket(TCPDirectSocketFactory.java:45)
+INFO   | jvm 3    | 2019/12/20 08:50:55 | 	at java.rmi/sun.rmi.transport.tcp.TCPEndpoint.newServerSocket(TCPEndpoint.java:666)
+INFO   | jvm 3    | 2019/12/20 08:50:55 | 	at java.rmi/sun.rmi.transport.tcp.TCPTransport.listen(TCPTransport.java:329)
+INFO   | jvm 3    | 2019/12/20 08:50:55 | 	... 11 more
+INFO   | jvm 3    | 2019/12/20 08:50:56 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+ERROR  | wrapper  | 2019/12/20 08:50:56 | JVM exited while loading the application.
+STATUS | wrapper  | 2019/12/20 08:51:00 | Launching a JVM...
+INFO   | jvm 4    | 2019/12/20 08:51:01 | 错误: 代理抛出异常错误: java.rmi.server.ExportException: Port already in use: 1984; nested exception is: 
+INFO   | jvm 4    | 2019/12/20 08:51:01 | 	java.net.BindException: Address already in use: NET_Bind
+INFO   | jvm 4    | 2019/12/20 08:51:01 | jdk.internal.agent.AgentConfigurationError: java.rmi.server.ExportException: Port already in use: 1984; nested exception is: 
+INFO   | jvm 4    | 2019/12/20 08:51:01 | 	java.net.BindException: Address already in use: NET_Bind
+INFO   | jvm 4    | 2019/12/20 08:51:01 | 	at jdk.management.agent/sun.management.jmxremote.ConnectorBootstrap.startRemoteConnectorServer(ConnectorBootstrap.java:484)
+INFO   | jvm 4    | 2019/12/20 08:51:01 | 	at jdk.management.agent/jdk.internal.agent.Agent.startAgent(Agent.java:450)
+INFO   | jvm 4    | 2019/12/20 08:51:01 | 	at jdk.management.agent/jdk.internal.agent.Agent.startAgent(Agent.java:621)
+INFO   | jvm 4    | 2019/12/20 08:51:01 | Caused by: java.rmi.server.ExportException: Port already in use: 1984; nested exception is: 
+INFO   | jvm 4    | 2019/12/20 08:51:01 | 	java.net.BindException: Address already in use: NET_Bind
+INFO   | jvm 4    | 2019/12/20 08:51:01 | 	at java.rmi/sun.rmi.transport.tcp.TCPTransport.listen(TCPTransport.java:340)
+INFO   | jvm 4    | 2019/12/20 08:51:01 | 	at java.rmi/sun.rmi.transport.tcp.TCPTransport.exportObject(TCPTransport.java:248)
+INFO   | jvm 4    | 2019/12/20 08:51:01 | 	at java.rmi/sun.rmi.transport.tcp.TCPEndpoint.exportObject(TCPEndpoint.java:411)
+INFO   | jvm 4    | 2019/12/20 08:51:01 | 	at java.rmi/sun.rmi.transport.LiveRef.exportObject(LiveRef.java:147)
+INFO   | jvm 4    | 2019/12/20 08:51:01 | 	at java.rmi/sun.rmi.server.UnicastServerRef.exportObject(UnicastServerRef.java:233)
+INFO   | jvm 4    | 2019/12/20 08:51:01 | 	at java.rmi/sun.rmi.registry.RegistryImpl.setup(RegistryImpl.java:220)
+INFO   | jvm 4    | 2019/12/20 08:51:01 | 	at java.rmi/sun.rmi.registry.RegistryImpl.<init>(RegistryImpl.java:180)
+INFO   | jvm 4    | 2019/12/20 08:51:01 | 	at jdk.management.agent/sun.management.jmxremote.SingleEntryRegistry.<init>(SingleEntryRegistry.java:49)
+INFO   | jvm 4    | 2019/12/20 08:51:01 | 	at jdk.management.agent/sun.management.jmxremote.ConnectorBootstrap.exportMBeanServer(ConnectorBootstrap.java:827)
+INFO   | jvm 4    | 2019/12/20 08:51:01 | 	at jdk.management.agent/sun.management.jmxremote.ConnectorBootstrap.startRemoteConnectorServer(ConnectorBootstrap.java:472)
+INFO   | jvm 4    | 2019/12/20 08:51:01 | 	... 2 more
+INFO   | jvm 4    | 2019/12/20 08:51:01 | Caused by: java.net.BindException: Address already in use: NET_Bind
+INFO   | jvm 4    | 2019/12/20 08:51:01 | 	at java.base/java.net.DualStackPlainSocketImpl.bind0(Native Method)
+INFO   | jvm 4    | 2019/12/20 08:51:01 | 	at java.base/java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+INFO   | jvm 4    | 2019/12/20 08:51:01 | 	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:437)
+INFO   | jvm 4    | 2019/12/20 08:51:01 | 	at java.base/java.net.PlainSocketImpl.bind(PlainSocketImpl.java:174)
+INFO   | jvm 4    | 2019/12/20 08:51:01 | 	at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+INFO   | jvm 4    | 2019/12/20 08:51:01 | 	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+INFO   | jvm 4    | 2019/12/20 08:51:01 | 	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:135)
+INFO   | jvm 4    | 2019/12/20 08:51:01 | 	at java.rmi/sun.rmi.transport.tcp.TCPDirectSocketFactory.createServerSocket(TCPDirectSocketFactory.java:45)
+INFO   | jvm 4    | 2019/12/20 08:51:01 | 	at java.rmi/sun.rmi.transport.tcp.TCPEndpoint.newServerSocket(TCPEndpoint.java:666)
+INFO   | jvm 4    | 2019/12/20 08:51:01 | 	at java.rmi/sun.rmi.transport.tcp.TCPTransport.listen(TCPTransport.java:329)
+INFO   | jvm 4    | 2019/12/20 08:51:01 | 	... 11 more
+INFO   | jvm 4    | 2019/12/20 08:51:01 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+ERROR  | wrapper  | 2019/12/20 08:51:01 | JVM exited while loading the application.
+STATUS | wrapper  | 2019/12/20 08:51:05 | Launching a JVM...
+INFO   | jvm 5    | 2019/12/20 08:51:06 | 错误: 代理抛出异常错误: java.rmi.server.ExportException: Port already in use: 1984; nested exception is: 
+INFO   | jvm 5    | 2019/12/20 08:51:06 | 	java.net.BindException: Address already in use: NET_Bind
+INFO   | jvm 5    | 2019/12/20 08:51:06 | jdk.internal.agent.AgentConfigurationError: java.rmi.server.ExportException: Port already in use: 1984; nested exception is: 
+INFO   | jvm 5    | 2019/12/20 08:51:06 | 	java.net.BindException: Address already in use: NET_Bind
+INFO   | jvm 5    | 2019/12/20 08:51:06 | 	at jdk.management.agent/sun.management.jmxremote.ConnectorBootstrap.startRemoteConnectorServer(ConnectorBootstrap.java:484)
+INFO   | jvm 5    | 2019/12/20 08:51:06 | 	at jdk.management.agent/jdk.internal.agent.Agent.startAgent(Agent.java:450)
+INFO   | jvm 5    | 2019/12/20 08:51:06 | 	at jdk.management.agent/jdk.internal.agent.Agent.startAgent(Agent.java:621)
+INFO   | jvm 5    | 2019/12/20 08:51:06 | Caused by: java.rmi.server.ExportException: Port already in use: 1984; nested exception is: 
+INFO   | jvm 5    | 2019/12/20 08:51:06 | 	java.net.BindException: Address already in use: NET_Bind
+INFO   | jvm 5    | 2019/12/20 08:51:06 | 	at java.rmi/sun.rmi.transport.tcp.TCPTransport.listen(TCPTransport.java:340)
+INFO   | jvm 5    | 2019/12/20 08:51:06 | 	at java.rmi/sun.rmi.transport.tcp.TCPTransport.exportObject(TCPTransport.java:248)
+INFO   | jvm 5    | 2019/12/20 08:51:06 | 	at java.rmi/sun.rmi.transport.tcp.TCPEndpoint.exportObject(TCPEndpoint.java:411)
+INFO   | jvm 5    | 2019/12/20 08:51:06 | 	at java.rmi/sun.rmi.transport.LiveRef.exportObject(LiveRef.java:147)
+INFO   | jvm 5    | 2019/12/20 08:51:06 | 	at java.rmi/sun.rmi.server.UnicastServerRef.exportObject(UnicastServerRef.java:233)
+INFO   | jvm 5    | 2019/12/20 08:51:06 | 	at java.rmi/sun.rmi.registry.RegistryImpl.setup(RegistryImpl.java:220)
+INFO   | jvm 5    | 2019/12/20 08:51:06 | 	at java.rmi/sun.rmi.registry.RegistryImpl.<init>(RegistryImpl.java:180)
+INFO   | jvm 5    | 2019/12/20 08:51:06 | 	at jdk.management.agent/sun.management.jmxremote.SingleEntryRegistry.<init>(SingleEntryRegistry.java:49)
+INFO   | jvm 5    | 2019/12/20 08:51:06 | 	at jdk.management.agent/sun.management.jmxremote.ConnectorBootstrap.exportMBeanServer(ConnectorBootstrap.java:827)
+INFO   | jvm 5    | 2019/12/20 08:51:06 | 	at jdk.management.agent/sun.management.jmxremote.ConnectorBootstrap.startRemoteConnectorServer(ConnectorBootstrap.java:472)
+INFO   | jvm 5    | 2019/12/20 08:51:06 | 	... 2 more
+INFO   | jvm 5    | 2019/12/20 08:51:06 | Caused by: java.net.BindException: Address already in use: NET_Bind
+INFO   | jvm 5    | 2019/12/20 08:51:06 | 	at java.base/java.net.DualStackPlainSocketImpl.bind0(Native Method)
+INFO   | jvm 5    | 2019/12/20 08:51:06 | 	at java.base/java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+INFO   | jvm 5    | 2019/12/20 08:51:06 | 	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:437)
+INFO   | jvm 5    | 2019/12/20 08:51:06 | 	at java.base/java.net.PlainSocketImpl.bind(PlainSocketImpl.java:174)
+INFO   | jvm 5    | 2019/12/20 08:51:06 | 	at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+INFO   | jvm 5    | 2019/12/20 08:51:06 | 	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+INFO   | jvm 5    | 2019/12/20 08:51:06 | 	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:135)
+INFO   | jvm 5    | 2019/12/20 08:51:06 | 	at java.rmi/sun.rmi.transport.tcp.TCPDirectSocketFactory.createServerSocket(TCPDirectSocketFactory.java:45)
+INFO   | jvm 5    | 2019/12/20 08:51:06 | 	at java.rmi/sun.rmi.transport.tcp.TCPEndpoint.newServerSocket(TCPEndpoint.java:666)
+INFO   | jvm 5    | 2019/12/20 08:51:06 | 	at java.rmi/sun.rmi.transport.tcp.TCPTransport.listen(TCPTransport.java:329)
+INFO   | jvm 5    | 2019/12/20 08:51:06 | 	... 11 more
+INFO   | jvm 5    | 2019/12/20 08:51:06 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+ERROR  | wrapper  | 2019/12/20 08:51:07 | JVM exited while loading the application.
+FATAL  | wrapper  | 2019/12/20 08:51:07 | There were 5 failed launches in a row, each lasting less than 300 seconds.  Giving up.
+FATAL  | wrapper  | 2019/12/20 08:51:07 |   There may be a configuration problem: please check the logs.
+STATUS | wrapper  | 2019/12/20 08:51:07 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/20 08:52:05 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2019/12/20 08:52:06 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/20 08:52:08 | Mycat-server stopped.
+STATUS | wrapper  | 2019/12/20 08:52:08 | Starting the Mycat-server service...
+STATUS | wrapper  | 2019/12/20 08:52:08 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/20 08:52:08 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/20 08:52:09 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/20 08:52:09 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/20 08:52:09 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/20 08:52:09 | 
+INFO   | jvm 1    | 2019/12/20 08:52:10 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/20 08:52:12 | Mycat-server started.
+STATUS | wrapper  | 2019/12/20 17:57:33 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/20 17:57:35 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/20 21:17:43 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/20 21:17:44 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/20 21:17:50 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/20 21:17:50 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/20 21:17:50 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/20 21:17:50 | 
+INFO   | jvm 1    | 2019/12/20 21:18:37 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/20 21:23:08 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/20 21:23:10 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/20 21:23:59 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/20 21:24:00 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/20 21:24:06 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/20 21:24:06 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/20 21:24:06 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/20 21:24:06 | 
+INFO   | jvm 1    | 2019/12/20 21:24:54 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/20 23:16:51 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/20 23:16:54 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/21 09:29:55 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/21 09:29:56 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/21 09:30:02 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/21 09:30:02 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/21 09:30:02 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/21 09:30:02 | 
+INFO   | jvm 1    | 2019/12/21 09:30:10 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/21 09:45:05 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/21 09:45:07 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/21 09:45:57 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/21 09:45:57 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/21 09:46:03 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/21 09:46:03 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/21 09:46:03 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/21 09:46:03 | 
+INFO   | jvm 1    | 2019/12/21 09:46:09 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/21 14:03:49 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/21 14:03:52 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/21 14:04:43 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/21 14:04:43 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/21 14:04:49 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/21 14:04:49 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/21 14:04:49 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/21 14:04:49 | 
+INFO   | jvm 1    | 2019/12/21 14:04:57 | MyCAT Server startup successfully. see logs in logs/mycat.log
+ERROR  | wrapper  | 2019/12/21 14:35:42 | The Mycat-server service is already running with status: RUNNING
+STATUS | wrapper  | 2019/12/21 14:36:19 | The Mycat-server Service is installed.
+STATUS | wrapper  | 2019/12/21 14:36:19 |   Start Type: Automatic
+STATUS | wrapper  | 2019/12/21 14:36:19 |   Interactive: No
+STATUS | wrapper  | 2019/12/21 14:36:19 |   Running: Yes
+STATUS | wrapper  | 2019/12/21 16:23:31 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/21 16:23:34 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/21 17:18:10 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/21 17:18:10 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/21 17:18:13 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/21 17:18:13 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/21 17:18:13 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/21 17:18:13 | 
+INFO   | jvm 1    | 2019/12/21 17:18:18 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/21 20:47:29 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/21 20:47:32 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/22 06:13:22 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/22 06:13:22 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/22 06:13:28 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/22 06:13:29 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/22 06:13:29 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/22 06:13:29 | 
+INFO   | jvm 1    | 2019/12/22 06:13:34 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/22 14:27:03 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/22 14:27:06 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/22 22:10:24 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/22 22:10:25 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/22 22:10:31 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/22 22:10:31 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/22 22:10:31 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/22 22:10:31 | 
+INFO   | jvm 1    | 2019/12/22 22:11:19 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/23 03:40:40 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/23 03:40:43 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/23 08:11:54 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/23 08:11:55 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/23 08:12:01 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/23 08:12:01 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/23 08:12:01 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/23 08:12:01 | 
+INFO   | jvm 1    | 2019/12/23 08:12:06 | MyCAT Server startup successfully. see logs in logs/mycat.log
+ERROR  | wrapper  | 2019/12/23 08:53:10 | The Mycat-server service is already running with status: RUNNING
+STATUS | wrapper  | 2019/12/23 09:48:47 | The Mycat-server Service is installed.
+STATUS | wrapper  | 2019/12/23 09:48:47 |   Start Type: Automatic
+STATUS | wrapper  | 2019/12/23 09:48:47 |   Interactive: No
+STATUS | wrapper  | 2019/12/23 09:48:47 |   Running: Yes
+STATUS | wrapper  | 2019/12/23 09:49:11 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2019/12/23 09:49:13 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/23 09:49:14 | Mycat-server stopped.
+STATUS | wrapper  | 2019/12/23 09:49:19 | Starting the Mycat-server service...
+STATUS | wrapper  | 2019/12/23 09:49:19 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/23 09:49:20 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/23 09:49:22 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/23 09:49:22 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/23 09:49:22 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/23 09:49:22 | 
+INFO   | jvm 1    | 2019/12/23 09:49:23 | MyCAT Server startup successfully. see logs in logs/mycat.log
+INFO   | wrapper  | 2019/12/23 09:49:24 | Waiting to start...
+STATUS | wrapper  | 2019/12/23 09:49:25 | Mycat-server started.
+STATUS | wrapper  | 2019/12/23 10:12:18 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2019/12/23 10:12:20 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/23 10:12:21 | Mycat-server stopped.
+STATUS | wrapper  | 2019/12/23 10:12:26 | Starting the Mycat-server service...
+STATUS | wrapper  | 2019/12/23 10:12:26 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/23 10:12:26 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/23 10:12:27 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/23 10:12:27 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/23 10:12:27 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/23 10:12:27 | 
+INFO   | jvm 1    | 2019/12/23 10:12:28 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/23 10:12:30 | Mycat-server started.
+STATUS | wrapper  | 2019/12/23 10:20:09 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2019/12/23 10:20:11 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/23 10:20:12 | Mycat-server stopped.
+STATUS | wrapper  | 2019/12/23 10:20:17 | Starting the Mycat-server service...
+STATUS | wrapper  | 2019/12/23 10:20:17 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/23 10:20:18 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/23 10:20:18 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/23 10:20:18 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/23 10:20:18 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/23 10:20:18 | 
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 
+INFO   | jvm 1    | 2019/12/23 10:20:19 | WrapperSimpleApp: Encountered an error running main: java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2019/12/23 10:20:19 | java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at io.mycat.MycatStartup.main(MycatStartup.java:53)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at java.base/java.lang.Thread.run(Thread.java:844)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | Caused by: io.mycat.config.util.ConfigException: org.xml.sax.SAXParseException; lineNumber: 35; columnNumber: 7; 注释中不允许出现字符串 "--"。
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.load(XMLSchemaLoader.java:121)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:78)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:82)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at io.mycat.config.ConfigInitializer.<init>(ConfigInitializer.java:76)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at io.mycat.config.MycatConfig.<init>(MycatConfig.java:72)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at io.mycat.MycatServer.<init>(MycatServer.java:166)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at io.mycat.MycatServer.<clinit>(MycatServer.java:109)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	... 7 more
+INFO   | jvm 1    | 2019/12/23 10:20:19 | Caused by: org.xml.sax.SAXParseException; lineNumber: 35; columnNumber: 7; 注释中不允许出现字符串 "--"。
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:399)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:326)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.scanComment(XMLScanner.java:818)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanComment(XMLDocumentFragmentScannerImpl.java:1066)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2894)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:601)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:531)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:887)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:823)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:122)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at io.mycat.config.util.ConfigUtil.getDocument(ConfigUtil.java:115)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.load(XMLSchemaLoader.java:111)
+INFO   | jvm 1    | 2019/12/23 10:20:19 | 	... 13 more
+STATUS | wrapper  | 2019/12/23 10:20:21 | <-- Wrapper Stopped
+ERROR  | wrapper  | 2019/12/23 10:20:22 | The Mycat-server service was launched, but failed to start.
+STATUS | wrapper  | 2019/12/23 10:21:41 | The Mycat-server service was not running.
+STATUS | wrapper  | 2019/12/23 10:21:46 | Starting the Mycat-server service...
+STATUS | wrapper  | 2019/12/23 10:21:46 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/23 10:21:46 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/23 10:21:47 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/23 10:21:47 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/23 10:21:47 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/23 10:21:47 | 
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 
+INFO   | jvm 1    | 2019/12/23 10:21:48 | WrapperSimpleApp: Encountered an error running main: java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2019/12/23 10:21:48 | java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at io.mycat.MycatStartup.main(MycatStartup.java:53)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at java.base/java.lang.Thread.run(Thread.java:844)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | Caused by: io.mycat.config.util.ConfigException: org.xml.sax.SAXParseException; lineNumber: 35; columnNumber: 7; 注释中不允许出现字符串 "--"。
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.load(XMLSchemaLoader.java:121)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:78)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:82)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at io.mycat.config.ConfigInitializer.<init>(ConfigInitializer.java:76)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at io.mycat.config.MycatConfig.<init>(MycatConfig.java:72)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at io.mycat.MycatServer.<init>(MycatServer.java:166)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at io.mycat.MycatServer.<clinit>(MycatServer.java:109)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	... 7 more
+INFO   | jvm 1    | 2019/12/23 10:21:48 | Caused by: org.xml.sax.SAXParseException; lineNumber: 35; columnNumber: 7; 注释中不允许出现字符串 "--"。
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:399)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:326)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.scanComment(XMLScanner.java:818)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanComment(XMLDocumentFragmentScannerImpl.java:1066)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2894)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:601)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:531)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:887)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:823)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:122)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at io.mycat.config.util.ConfigUtil.getDocument(ConfigUtil.java:115)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.load(XMLSchemaLoader.java:111)
+INFO   | jvm 1    | 2019/12/23 10:21:48 | 	... 13 more
+STATUS | wrapper  | 2019/12/23 10:21:50 | <-- Wrapper Stopped
+ERROR  | wrapper  | 2019/12/23 10:21:51 | The Mycat-server service was launched, but failed to start.
+STATUS | wrapper  | 2019/12/23 10:26:04 | Starting the Mycat-server service...
+STATUS | wrapper  | 2019/12/23 10:26:04 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/23 10:26:04 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/23 10:26:05 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/23 10:26:05 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/23 10:26:05 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/23 10:26:05 | 
+INFO   | jvm 1    | 2019/12/23 10:26:06 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/23 10:26:08 | Mycat-server started.
+STATUS | wrapper  | 2019/12/23 10:31:47 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2019/12/23 10:31:50 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/23 10:31:51 | Mycat-server stopped.
+STATUS | wrapper  | 2019/12/23 10:32:29 | Starting the Mycat-server service...
+STATUS | wrapper  | 2019/12/23 10:32:29 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/23 10:32:29 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/23 10:32:30 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/23 10:32:30 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/23 10:32:30 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/23 10:32:30 | 
+INFO   | jvm 1    | 2019/12/23 10:32:31 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/23 10:32:33 | Mycat-server started.
+STATUS | wrapper  | 2019/12/23 10:34:23 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2019/12/23 10:34:24 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/23 10:34:26 | Mycat-server stopped.
+STATUS | wrapper  | 2019/12/23 10:34:59 | Starting the Mycat-server service...
+STATUS | wrapper  | 2019/12/23 10:34:59 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/23 10:34:59 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/23 10:35:00 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/23 10:35:00 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/23 10:35:00 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/23 10:35:00 | 
+STATUS | wrapper  | 2019/12/23 10:35:04 | Mycat-server started.
+INFO   | jvm 1    | 2019/12/23 10:37:01 | MyCAT Server startup successfully. see logs in logs/mycat.log
+INFO   | jvm 1    | 2019/12/23 10:37:01 | Exception in thread "Timer0" java.lang.ArithmeticException: / by zero
+INFO   | jvm 1    | 2019/12/23 10:37:01 | 	at io.mycat.backend.datasource.PhysicalDatasource.createByIdleLitte(PhysicalDatasource.java:412)
+INFO   | jvm 1    | 2019/12/23 10:37:01 | 	at io.mycat.backend.datasource.PhysicalDatasource.heatBeatCheck(PhysicalDatasource.java:311)
+INFO   | jvm 1    | 2019/12/23 10:37:01 | 	at io.mycat.backend.datasource.PhysicalDBPool.heartbeatCheck(PhysicalDBPool.java:456)
+INFO   | jvm 1    | 2019/12/23 10:37:01 | 	at io.mycat.MycatServer$7$1.run(MycatServer.java:911)
+INFO   | jvm 1    | 2019/12/23 10:37:01 | 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+INFO   | jvm 1    | 2019/12/23 10:37:01 | 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+INFO   | jvm 1    | 2019/12/23 10:37:01 | 	at java.base/java.lang.Thread.run(Thread.java:844)
+STATUS | wrapper  | 2019/12/23 10:37:29 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2019/12/23 10:37:31 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/23 10:37:32 | Mycat-server stopped.
+STATUS | wrapper  | 2019/12/23 10:37:32 | Starting the Mycat-server service...
+STATUS | wrapper  | 2019/12/23 10:37:32 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/23 10:37:32 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/23 10:37:33 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/23 10:37:33 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/23 10:37:33 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/23 10:37:33 | 
+STATUS | wrapper  | 2019/12/23 10:37:37 | Mycat-server started.
+INFO   | jvm 1    | 2019/12/23 10:38:58 | Exception in thread "Timer0" java.lang.ArithmeticException: / by zero
+INFO   | jvm 1    | 2019/12/23 10:38:58 | 	at io.mycat.backend.datasource.PhysicalDatasource.createByIdleLitte(PhysicalDatasource.java:412)
+INFO   | jvm 1    | 2019/12/23 10:38:58 | 	at io.mycat.backend.datasource.PhysicalDatasource.heatBeatCheck(PhysicalDatasource.java:311)
+INFO   | jvm 1    | 2019/12/23 10:38:58 | 	at io.mycat.backend.datasource.PhysicalDBPool.heartbeatCheck(PhysicalDBPool.java:456)
+INFO   | jvm 1    | 2019/12/23 10:38:58 | 	at io.mycat.MycatServer$7$1.run(MycatServer.java:911)
+INFO   | jvm 1    | 2019/12/23 10:38:58 | 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+INFO   | jvm 1    | 2019/12/23 10:38:58 | 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+INFO   | jvm 1    | 2019/12/23 10:38:58 | 	at java.base/java.lang.Thread.run(Thread.java:844)
+INFO   | jvm 1    | 2019/12/23 10:38:58 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/23 10:41:03 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2019/12/23 10:41:05 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/23 10:41:06 | Mycat-server stopped.
+STATUS | wrapper  | 2019/12/23 10:41:06 | Starting the Mycat-server service...
+STATUS | wrapper  | 2019/12/23 10:41:06 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/23 10:41:07 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/23 10:41:07 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/23 10:41:08 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/23 10:41:08 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/23 10:41:08 | 
+INFO   | jvm 1    | 2019/12/23 10:41:09 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/23 10:41:10 | Mycat-server started.
+STATUS | wrapper  | 2019/12/23 10:59:49 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2019/12/23 10:59:51 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/23 10:59:52 | Mycat-server stopped.
+STATUS | wrapper  | 2019/12/23 10:59:52 | Starting the Mycat-server service...
+STATUS | wrapper  | 2019/12/23 10:59:52 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/23 10:59:52 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/23 10:59:53 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/23 10:59:53 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/23 10:59:53 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/23 10:59:53 | 
+INFO   | jvm 1    | 2019/12/23 10:59:54 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/23 10:59:55 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/23 10:59:56 | Mycat-server started.
+STATUS | wrapper  | 2019/12/23 11:30:43 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/23 11:30:46 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/23 11:31:31 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/23 11:31:32 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/23 11:31:37 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/23 11:31:38 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/23 11:31:38 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/23 11:31:38 | 
+INFO   | jvm 1    | 2019/12/23 11:31:39 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/23 11:31:46 | MyCAT Server startup successfully. see logs in logs/mycat.log
+FATAL  | wrapper  | 2019/12/23 11:34:39 | OpenSCManager failed - 拒绝访问。 (0x5)
+ERROR  | wrapper  | 2019/12/23 12:03:38 | The Mycat-server service is already running with status: RUNNING
+STATUS | wrapper  | 2019/12/23 15:01:53 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/23 15:01:56 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/23 15:02:43 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/23 15:02:43 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/23 15:02:49 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/23 15:02:49 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/23 15:02:49 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/23 15:02:49 | 
+INFO   | jvm 1    | 2019/12/23 15:02:50 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/23 15:03:03 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/23 18:26:47 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/23 18:26:49 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/23 18:27:37 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/23 18:27:38 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/23 18:27:43 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/23 18:27:43 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/23 18:27:43 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/23 18:27:43 | 
+INFO   | jvm 1    | 2019/12/23 18:27:45 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/23 18:27:51 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/23 18:29:58 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/23 18:30:00 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/23 18:30:40 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/23 18:30:40 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/23 18:30:46 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/23 18:30:47 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/23 18:30:47 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/23 18:30:47 | 
+INFO   | jvm 1    | 2019/12/23 18:30:48 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/23 18:30:55 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/23 18:41:55 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/23 18:41:57 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/23 18:42:49 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/23 18:42:50 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/23 18:42:55 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/23 18:42:56 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/23 18:42:56 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/23 18:42:56 | 
+INFO   | jvm 1    | 2019/12/23 18:42:57 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/23 18:43:05 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/23 18:57:32 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/23 18:57:34 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/24 08:10:40 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/24 08:10:40 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/24 08:10:47 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/24 08:10:47 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/24 08:10:47 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/24 08:10:47 | 
+INFO   | jvm 1    | 2019/12/24 08:10:48 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/24 08:10:52 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/24 15:01:54 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/24 15:01:56 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/24 15:02:44 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/24 15:02:45 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/24 15:02:51 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/24 15:02:51 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/24 15:02:51 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/24 15:02:51 | 
+INFO   | jvm 1    | 2019/12/24 15:02:52 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/24 15:02:56 | MyCAT Server startup successfully. see logs in logs/mycat.log
+ERROR  | wrapper  | 2019/12/24 17:11:25 | The Mycat-server service is already running with status: RUNNING
+STATUS | wrapper  | 2019/12/24 18:20:43 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/24 18:20:46 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/24 18:21:37 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/24 18:21:38 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/24 18:21:44 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/24 18:21:44 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/24 18:21:44 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/24 18:21:44 | 
+INFO   | jvm 1    | 2019/12/24 18:21:45 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/24 18:21:52 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/24 19:28:39 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/24 19:28:42 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/24 20:47:08 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/24 20:47:08 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/24 20:47:15 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/24 20:47:15 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/24 20:47:15 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/24 20:47:15 | 
+INFO   | jvm 1    | 2019/12/24 20:47:16 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/24 20:48:02 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/24 20:59:29 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/24 20:59:32 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/25 08:14:51 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/25 08:14:51 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/25 08:14:57 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/25 08:14:57 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/25 08:14:57 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/25 08:14:57 | 
+INFO   | jvm 1    | 2019/12/25 08:14:59 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/25 08:15:05 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/25 09:09:05 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/25 09:09:07 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/25 09:09:59 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/25 09:10:00 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/25 09:10:06 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/25 09:10:06 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/25 09:10:06 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/25 09:10:06 | 
+INFO   | jvm 1    | 2019/12/25 09:10:07 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/25 09:10:11 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/25 14:46:09 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/25 14:46:12 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/25 14:46:58 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/25 14:46:59 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/25 14:47:04 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/25 14:47:04 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/25 14:47:04 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/25 14:47:04 | 
+INFO   | jvm 1    | 2019/12/25 14:47:06 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/25 14:47:11 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/25 17:48:30 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/25 17:48:32 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/25 20:23:00 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/25 20:23:00 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/25 20:23:06 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/25 20:23:06 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/25 20:23:06 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/25 20:23:06 | 
+INFO   | jvm 1    | 2019/12/25 20:23:08 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/25 20:23:54 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/25 20:38:48 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/25 20:38:50 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/26 08:13:25 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/26 08:13:26 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/26 08:13:32 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/26 08:13:32 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/26 08:13:32 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/26 08:13:32 | 
+INFO   | jvm 1    | 2019/12/26 08:13:33 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/26 08:13:39 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/26 14:34:59 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/26 14:35:02 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/26 14:35:53 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/26 14:35:53 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/26 14:35:59 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/26 14:35:59 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/26 14:35:59 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/26 14:35:59 | 
+INFO   | jvm 1    | 2019/12/26 14:36:01 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/26 14:36:09 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/26 17:00:49 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/26 17:00:52 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/26 17:01:41 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/26 17:01:41 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/26 17:01:47 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/26 17:01:47 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/26 17:01:47 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/26 17:01:47 | 
+INFO   | jvm 1    | 2019/12/26 17:01:48 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/26 17:01:57 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/26 19:13:09 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/26 19:13:11 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/26 19:14:06 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/26 19:14:07 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/26 19:14:13 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/26 19:14:13 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/26 19:14:13 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/26 19:14:13 | 
+INFO   | jvm 1    | 2019/12/26 19:14:14 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/26 19:14:23 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/26 19:57:18 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/26 19:57:20 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/26 20:52:42 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/26 20:52:43 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/26 20:52:49 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/26 20:52:49 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/26 20:52:49 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/26 20:52:49 | 
+INFO   | jvm 1    | 2019/12/26 20:52:51 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/26 20:52:54 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/26 21:22:03 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/26 21:22:06 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/27 04:09:12 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/27 04:09:12 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/27 04:09:18 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/27 04:09:18 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/27 04:09:18 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/27 04:09:18 | 
+INFO   | jvm 1    | 2019/12/27 04:09:20 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/27 04:10:05 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/27 04:19:11 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/27 04:19:13 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/27 04:20:10 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/27 04:20:11 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/27 04:20:17 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/27 04:20:17 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/27 04:20:17 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/27 04:20:17 | 
+INFO   | jvm 1    | 2019/12/27 04:20:19 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/27 04:20:22 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/27 05:47:52 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/27 05:47:54 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/27 05:53:15 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/27 05:53:15 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/27 05:53:23 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/27 05:53:23 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/27 05:53:23 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/27 05:53:23 | 
+INFO   | jvm 1    | 2019/12/27 05:53:24 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/27 05:54:10 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/27 06:01:12 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/27 06:01:13 | <-- Wrapper Stopped
+                                                                                                                                        STATUS | wrapper  | 2019/12/27 08:17:47 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/27 08:17:48 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/27 08:17:53 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/27 08:17:53 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/27 08:17:53 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/27 08:17:53 | 
+INFO   | jvm 1    | 2019/12/27 08:17:55 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/27 08:17:59 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/27 13:46:46 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/27 13:46:49 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/27 13:47:38 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/27 13:47:39 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/27 13:47:46 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/27 13:47:46 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/27 13:47:46 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/27 13:47:46 | 
+INFO   | jvm 1    | 2019/12/27 13:47:47 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/27 13:47:52 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/27 20:02:31 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/27 20:02:33 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/27 21:18:32 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/27 21:18:33 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/27 21:18:40 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/27 21:18:41 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/27 21:18:41 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/27 21:18:41 | 
+INFO   | jvm 1    | 2019/12/27 21:18:42 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/27 21:19:29 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/27 21:29:02 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/27 21:29:03 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/27 21:30:07 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/27 21:30:07 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/27 21:30:27 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/27 21:30:27 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/27 21:30:27 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/27 21:30:27 | 
+INFO   | jvm 1    | 2019/12/27 21:30:29 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/27 21:31:15 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/27 21:45:52 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/27 21:45:54 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/27 21:58:52 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/27 21:58:53 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/27 21:59:00 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/27 21:59:00 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/27 21:59:00 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/27 21:59:00 | 
+INFO   | jvm 1    | 2019/12/27 21:59:02 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/27 21:59:48 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/27 22:26:24 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/27 22:26:26 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/28 08:27:58 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/28 08:27:58 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/28 08:28:05 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/28 08:28:05 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/28 08:28:05 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/28 08:28:05 | 
+INFO   | jvm 1    | 2019/12/28 08:28:06 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/28 08:28:13 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/28 08:37:47 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/28 08:37:48 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/28 08:38:39 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/28 08:38:40 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/28 08:38:47 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/28 08:38:47 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/28 08:38:47 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/28 08:38:47 | 
+INFO   | jvm 1    | 2019/12/28 08:38:48 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/28 08:38:55 | MyCAT Server startup successfully. see logs in logs/mycat.log
+FATAL  | wrapper  | 2019/12/28 08:43:33 | OpenSCManager failed - 拒绝访问。 (0x5)
+ERROR  | wrapper  | 2019/12/28 08:46:10 | The Mycat-server service is already running with status: RUNNING
+STATUS | wrapper  | 2019/12/28 08:46:31 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2019/12/28 08:46:33 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/28 08:46:34 | Mycat-server stopped.
+STATUS | wrapper  | 2019/12/28 15:01:32 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/28 15:01:33 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/28 15:01:40 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/28 15:01:40 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/28 15:01:40 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/28 15:01:40 | 
+INFO   | jvm 1    | 2019/12/28 15:01:42 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/28 15:01:45 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/28 16:55:00 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/28 16:55:03 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/29 05:04:18 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/29 05:04:19 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/29 05:04:22 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/29 05:04:22 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/29 05:04:22 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/29 05:04:22 | 
+INFO   | jvm 1    | 2019/12/29 05:04:23 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/29 05:04:27 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/29 05:12:48 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/29 05:12:50 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/29 05:13:52 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/29 05:13:53 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/29 05:14:01 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/29 05:14:01 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/29 05:14:01 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/29 05:14:01 | 
+INFO   | jvm 1    | 2019/12/29 05:14:02 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/29 05:14:48 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/29 05:18:31 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/29 05:18:33 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/29 09:02:45 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/29 09:02:45 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/29 09:02:52 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/29 09:02:52 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/29 09:02:52 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/29 09:02:52 | 
+INFO   | jvm 1    | 2019/12/29 09:02:54 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/29 09:03:40 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/29 09:13:17 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/29 09:13:20 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/29 09:14:23 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/29 09:14:23 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/29 09:14:31 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/29 09:14:31 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/29 09:14:31 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/29 09:14:31 | 
+INFO   | jvm 1    | 2019/12/29 09:14:33 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/29 09:15:19 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/29 09:59:52 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/29 09:59:55 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/29 10:10:55 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/29 10:10:55 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/29 10:11:02 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/29 10:11:02 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/29 10:11:02 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/29 10:11:02 | 
+INFO   | jvm 1    | 2019/12/29 10:11:04 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/29 10:11:08 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/29 10:29:35 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/29 10:29:37 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/29 20:03:50 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/29 20:03:51 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/29 20:03:54 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/29 20:03:54 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/29 20:03:54 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/29 20:03:54 | 
+INFO   | jvm 1    | 2019/12/29 20:03:55 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/29 20:03:59 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/29 20:14:23 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/29 20:14:25 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/29 20:15:10 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/29 20:15:10 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/29 20:15:14 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/29 20:15:14 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/29 20:15:14 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/29 20:15:14 | 
+INFO   | jvm 1    | 2019/12/29 20:15:16 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/29 20:15:40 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/29 22:13:48 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/29 22:13:49 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/29 22:15:59 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/29 22:16:00 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/29 22:16:18 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/29 22:16:18 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/29 22:16:18 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/29 22:16:18 | 
+INFO   | jvm 1    | 2019/12/29 22:16:19 |  warn: bad line int autopartition-long.txt :
+STATUS | wrapper  | 2019/12/29 22:16:35 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/29 22:16:38 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/30 04:07:02 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/30 04:07:02 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/30 04:07:09 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/30 04:07:09 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/30 04:07:09 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/30 04:07:09 | 
+INFO   | jvm 1    | 2019/12/30 04:07:11 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/30 04:07:56 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/30 04:33:43 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/30 04:33:44 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/30 05:35:38 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/30 05:35:38 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/30 05:35:46 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/30 05:35:46 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/30 05:35:46 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/30 05:35:46 | 
+INFO   | jvm 1    | 2019/12/30 05:35:47 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/30 05:36:33 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/30 06:12:16 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/30 06:12:18 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/30 08:17:18 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/30 08:17:18 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/30 08:17:25 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/30 08:17:25 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/30 08:17:25 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/30 08:17:25 | 
+INFO   | jvm 1    | 2019/12/30 08:17:26 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/30 08:17:33 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/30 08:26:01 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/30 08:26:03 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/30 08:27:02 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/30 08:27:03 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/30 08:27:09 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/30 08:27:09 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/30 08:27:09 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/30 08:27:09 | 
+INFO   | jvm 1    | 2019/12/30 08:27:11 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/30 08:27:14 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/30 13:42:35 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/30 13:42:37 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/30 13:43:23 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/30 13:43:24 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/30 13:43:27 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/30 13:43:27 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/30 13:43:27 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/30 13:43:27 | 
+INFO   | jvm 1    | 2019/12/30 13:43:28 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/30 13:43:33 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/30 16:57:28 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/30 16:57:30 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/30 16:58:25 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/30 16:58:26 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/30 16:58:32 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/30 16:58:33 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/30 16:58:33 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/30 16:58:33 | 
+INFO   | jvm 1    | 2019/12/30 16:58:34 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/30 16:58:38 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/30 19:34:57 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/30 19:34:59 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/30 19:38:53 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/30 19:38:54 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/30 19:39:01 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/30 19:39:01 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/30 19:39:01 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/30 19:39:01 | 
+INFO   | jvm 1    | 2019/12/30 19:39:02 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/30 19:39:06 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/30 19:58:12 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/30 19:58:14 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/30 21:30:19 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/30 21:30:20 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/30 21:30:27 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/30 21:30:27 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/30 21:30:27 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/30 21:30:27 | 
+INFO   | jvm 1    | 2019/12/30 21:30:29 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/30 21:31:15 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/30 22:25:04 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/30 22:25:06 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/30 22:26:02 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/30 22:26:02 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/30 22:26:10 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/30 22:26:10 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/30 22:26:10 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/30 22:26:10 | 
+INFO   | jvm 1    | 2019/12/30 22:26:12 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2019/12/30 22:26:58 | MyCAT Server startup successfully. see logs in logs/mycat.log

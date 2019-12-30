@@ -7,7 +7,7 @@ namespace LeadChina.ProjectManager.SysSetting.API.Controllers
     /// <summary>
     /// 测试API
     /// </summary>
-    [Route("api/[controller]")]    
+    [Route("api/[controller]")]
     public class ValuesController : Controller
     {
         /// <summary>
