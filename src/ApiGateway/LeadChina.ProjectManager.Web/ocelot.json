@@ -29,9 +29,7 @@
       },
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "apikey",
-        "AllowedScopes": [
-
-        ]
+        "AllowedScopes": []
       },
       "AddHeadersToRequest": {
         "CustomerId": "Claims[CustomerId] > value",

@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>主页</title>
+</head>
+<body>
+    <button class="btnPrimary">调用普通API</button>
+    <button class="btnAuthority">调用授权API</button>
+    <script src="public/js/jquery.js"></script>
+    <script>
+        $(function () {
+            $('.btnPrimary').click(function () {
+                $.get('http://localhost:6080/api/values', null, function (res) {
+                    console.log(res);
+                });
+            });
+            $('.btnAuthority').click(function () {
+                $.ajax({
+                    url: 'http://localhost:6080/api/values/1',
+                    data: {},
+                    success: function (res) {
+                        console.log(res);
+                    },
+                    error: function (res) {
+                        location.href = 'Login.html'
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

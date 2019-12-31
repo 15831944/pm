@@ -1,13 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using IdentityServer4.Models;
+using NanoFabric.IdentityServer.Interfaces.Repositories;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using IdentityServer4.Models;
-using NanoFabric.IdentityServer.Interfaces.Repositories;
 
 namespace NanoFabric.IdentityServer.Repositories.ClientAggregate.InMemory
 {
-    #pragma warning disable 1998
-    //TODO Remove when we async
     /// <summary>
     /// 客户端仓储
     /// </summary>
