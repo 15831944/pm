@@ -31,8 +31,10 @@ namespace LeadChina.ProjectManager.SysSetting.BusiProcess.Impl
         /// <returns></returns>
         public AccountViewModel GetAcount(string username, string password)
         {
-            return _mapper.Map<AccountViewModel>(_accountRepository.FindOneAsNoTracking(
-                _ => _.AccountNo == username && _.Password == MD5Helper.MD5Encrypt32(password)));
+            string pwd = MD5Helper.MD5Encrypt32(password);
+            var user = _accountRepository.FindOneAsNoTracking(
+                _ => _.AccountNo == username && _.Password == pwd);
+            return _mapper.Map<AccountViewModel>(user);
         }
     }
 }

@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    用户名：<input type="text" id="txtNo" />
+    密&nbsp;码：<input type="password" id="txtPwd" />
+    <button class="btnLogin">登录</button>
+    <script src="public/js/jquery.js"></script>
+    <script>
+        $(function () {
+            $('.btnLogin').click(function () {
+                $.post('http://localhost:6080/api/values', {
+                    Username
+                }, function (res) {
+                    console.log(res);
+                });
+            })
+        });
+    </script>
+</body>
+</html>

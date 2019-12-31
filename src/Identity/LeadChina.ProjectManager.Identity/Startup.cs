@@ -28,8 +28,7 @@ namespace LeadChina.ProjectManager.Identity
             var builder = new ConfigurationBuilder()
                 .SetBasePath(env.ContentRootPath)
                 .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
-                .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
-                .AddEnvironmentVariables();
+                .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true);
 
             Configuration = builder.Build();
         }
@@ -51,8 +50,11 @@ namespace LeadChina.ProjectManager.Identity
                });
             // 添加Consul服务注册模块
             services.AddNanoFabricConsul(Configuration);
-            // 添加IdentityServer身份认证模块
+            // AddIdentityServer方法在依赖注入系统中注册IdentityServer，它还会注册一个基于内存存储的运行时状态，
+            // 这对于开发场景非常有用，对于生产场景，您需要一个持久化或共享存储，如数据库或缓存
             services.AddIdentityServer()
+                // AddDeveloperSigningCredential扩展在每次启动时，为令牌签名创建了一个临时密钥。在生成环境需要一个持久化的密钥
+                //.AddDeveloperSigningCredential()
                 .AddNanoFabricIDS(Configuration);
 
             // Automapper 注入

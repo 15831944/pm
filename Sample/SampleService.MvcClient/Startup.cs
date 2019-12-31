@@ -22,7 +22,7 @@ namespace SampleService.MvcClient
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-            // 清除jwt声明
+            // 关闭了 JWT Claim 类型映射，以允许常用的Claim（例如'sub'和'idp'）
             JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
         }
 
@@ -30,7 +30,7 @@ namespace SampleService.MvcClient
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
-        {       
+        {
             // Add framework services.
             services.AddMvc();
             services.AddNanoFabricConsul(Configuration);
@@ -43,23 +43,29 @@ namespace SampleService.MvcClient
             //});
             services.AddSingleton(p => new HttpClient());
             var authority = Configuration.GetValue<string>("Authority");
+            // AddAuthentication将身份认证服务添加到 DI
             services.AddAuthentication(options =>
             {
+                // 使用 cookie 来本地登录用户（通过 "Cookies" 作为 DefaultScheme）
                 options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                // 将 DefaultChallengeScheme 设置为 "oidc"，因为当我们需要用户登录时，我们将使用 OpenID Connect 协议
                 options.DefaultChallengeScheme = "oidc";
             })
+           // 使用 AddCookie 添加可以处理 cookie 的处理程序
            .AddCookie(options =>
            {
                options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
                options.Cookie.Name = "mvchybrid";
            })
-           // 使用 OpenId Connect 添加用户身份认证
+           // AddOpenIdConnect 用于配置执行 OpenID Connect 协议的处理程序
            .AddOpenIdConnect("oidc", options =>
            {
+               // Authority 表明我们信任的 IdentityServer 地址
                options.Authority = authority;
                options.RequireHttpsMetadata = false;
 
                options.ClientSecret = "secret";
+               // 我们通过 ClientId 识别这个客户端
                options.ClientId = "mvc.hybrid";
 
                options.ResponseType = "code id_token";
@@ -75,15 +81,17 @@ namespace SampleService.MvcClient
                options.ClaimActions.MapJsonKey("website", "website");
 
                options.GetClaimsFromUserInfoEndpoint = true;
+
+               // SaveTokens 用于在 cookie 中保留来自 IdentityServer 的令牌
                options.SaveTokens = true;
 
-                // Map here the claims for name and role 
-                options.TokenValidationParameters =
-                   new TokenValidationParameters
-                   {
-                       NameClaimType = JwtClaimTypes.Email,
-                       RoleClaimType = JwtClaimTypes.Role,
-                   };
+               // Map here the claims for name and role 
+               options.TokenValidationParameters =
+                  new TokenValidationParameters
+                  {
+                      NameClaimType = JwtClaimTypes.Email,
+                      RoleClaimType = JwtClaimTypes.Role,
+                  };
 
                options.Events.OnRedirectToIdentityProvider = context =>
                {
@@ -96,7 +104,7 @@ namespace SampleService.MvcClient
 
                };
            });
-          
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -117,8 +125,15 @@ namespace SampleService.MvcClient
 
             app.UseStaticFiles();
             app.UseConsulRegisterService(Configuration);
+
+            // 确保认证服务执行对每个请求的验证，加入 UseAuthentication 到 Configure 中
+            // 应在管道中的 MVC 之前添加认证中间件
             app.UseAuthentication();
-            app.UseMvcWithDefaultRoute();            
+
+            app.UseMvcWithDefaultRoute();
         }
     }
 }
+/**
+ * 最后一步是触发身份认证。为此，请转到 Controller 并添加 [Authorize] 特性到其中一个 Action
+ */
