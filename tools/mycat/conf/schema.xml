@@ -2,47 +2,40 @@
 <!DOCTYPE mycat:schema SYSTEM "schema.dtd">
 <mycat:schema xmlns:mycat="http://io.mycat/">
 
-	<schema name="TESTDB" checkSQLschema="true" sqlMaxLimit="100">
+	<schema name="leadchinapmdb" checkSQLschema="true" sqlMaxLimit="100">
 		<!-- auto sharding by id (long) -->
-		<table name="t_user" dataNode="dn1,dn2,dn3" rule="auto-sharding-long" />
-		<!-- global table is auto cloned to all defined data nodes ,so can join
-with any table whose sharding node is in the same data node -->
-    <table name="t_company" primaryKey="ID" type="global" dataNode="dn1,dn2,dn3" />
-		<!-- <table name="oc_call" primaryKey="ID" dataNode="dn1$0-743" rule="latest-month-calldate"
-			/> -->
+		<table name="base_log" dataNode="dn1,dn2,dn3" rule="auto-sharding-long" />
+		<!-- global table is auto cloned to all defined data nodes ,so can join with any table whose sharding node is in the same data node -->
+        <table name="base_account" primaryKey="ID" type="global" dataNode="dn1,dn2" />
+		<table name="base_role" primaryKey="ID" type="global" dataNode="dn1,dn2" />
+		<table name="base_org" primaryKey="ID" type="global" dataNode="dn1,dn2" />
+		<table name="base_menu" primaryKey="ID" type="global" dataNode="dn1,dn2" />
+		<!-- <table name="oc_call" primaryKey="ID" dataNode="dn1$0-743" rule="latest-month-calldate"/> -->
 	</schema>
-	<!-- <dataNode name="dn1$0-743" dataHost="localhost1" database="db$0-743"
-		/> -->
-	<dataNode name="dn1" dataHost="localhost1" database="eim1" />
-	<dataNode name="dn2" dataHost="dbserver1" database="eim2" />
-	<dataNode name="dn3" dataHost="dbserver2" database="eim3" />
+	<!-- <dataNode name="dn1$0-743" dataHost="localhost1" database="db$0-743"/> -->
+	<dataNode name="dn1" dataHost="localhost1" database="leadchinapmdb1" />
+	<dataNode name="dn2" dataHost="localhost1" database="leadchinapmdb2" />
+	<dataNode name="dn3" dataHost="localhost1" database="leadchinapmdb3" />
 	<!--<dataNode name="dn4" dataHost="sequoiadb1" database="SAMPLE" />
 	 <dataNode name="jdbc_dn1" dataHost="jdbchost" database="db1" />
 	<dataNode	name="jdbc_dn2" dataHost="jdbchost" database="db2" />
 	<dataNode name="jdbc_dn3" 	dataHost="jdbchost" database="db3" /> -->
-	<dataHost name="localhost1" maxCon="1000" minCon="10" balance="0"
-			  writeType="0" dbType="mysql" dbDriver="native" switchType="1"  slaveThreshold="100">
+	<dataHost name="localhost1" maxCon="1000" minCon="10" balance="0" writeType="0" dbType="mysql" dbDriver="native" switchType="1"  slaveThreshold="100">
 		<heartbeat>select user()</heartbeat>
 		<!-- can have multi write hosts -->
-		<writeHost host="hostM1" url="127.0.0.1:3306" user="root"
-				   password="root">
-		</writeHost>
+		<writeHost host="hostM1" url="127.0.0.1:3306" user="root" password="1234"></writeHost>
 		<!-- <writeHost host="hostM2" url="localhost:3316" user="root" password="123456"/> -->
 	</dataHost>
-	<dataHost name="dbserver1" maxCon="1000" minCon="10" balance="0"
-			  writeType="0" dbType="mysql" dbDriver="native" switchType="1"  slaveThreshold="100">
+	<!--
+	<dataHost name="dbserver1" maxCon="1000" minCon="10" balance="0" writeType="0" dbType="mysql" dbDriver="native" switchType="1"  slaveThreshold="100">
 		<heartbeat>select user()</heartbeat>
-		<writeHost host="hostM1" url="10.30.100.105:3306" user="root"
-				   password="123">
-		</writeHost>
+		<writeHost host="hostM1" url="10.30.100.105:3306" user="root" password="123"></writeHost>
 	</dataHost>
-	<dataHost name="dbserver2" maxCon="1000" minCon="10" balance="0"
-			  writeType="0" dbType="mysql" dbDriver="native" switchType="1"  slaveThreshold="100">
+	<dataHost name="dbserver2" maxCon="1000" minCon="10" balance="0" writeType="0" dbType="mysql" dbDriver="native" switchType="1"  slaveThreshold="100">
 		<heartbeat>select user()</heartbeat>
-		<writeHost host="hostM1" url="10.30.100.106:3306" user="root"
-				   password="123">
-		</writeHost>
+		<writeHost host="hostM1" url="10.30.100.106:3306" user="root" password="123"></writeHost>
 	</dataHost>
+	-->
 	<!--
 		<dataHost name="sequoiadb1" maxCon="1000" minCon="1" balance="0" dbType="sequoiadb" dbDriver="jdbc">
 		<heartbeat> 		</heartbeat>

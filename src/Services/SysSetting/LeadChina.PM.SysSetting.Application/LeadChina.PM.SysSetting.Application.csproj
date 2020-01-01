@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\LeadChina.PM.Core\LeadChina.PM.Core.csproj" />
+    <ProjectReference Include="..\LeadChina.PM.SysSetting.Infrastrue\LeadChina.PM.SysSetting.Infrastrue.csproj" />
+  </ItemGroup>
+
+</Project>
