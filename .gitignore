@@ -122,3 +122,4 @@ obj
 /src/NanoFabric.Ocelot/Properties/PublishProfiles
 src/NanoFabric.Ocelot/httplocalhost5000.db
 /sample/SampleService.IdentityServer/Properties/PublishProfiles
+tools
