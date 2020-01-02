@@ -52,9 +52,11 @@ namespace LeadChina.PM.IdentityServer.Repositories.ClientAggregate.InMemory
                         AllowedGrantTypes = GrantTypes.Code,
                         RequirePkce = true,
                         RequireClientSecret = false,
-                        RedirectUris = { "http://localhost:9528" },
-                        PostLogoutRedirectUris = { "http://localhost:9528/#/login" },
-                        AllowedCorsOrigins = { "http://localhost:9528" },
+                        // 登录成功回调处理地址，处理回调返回的数据
+                        RedirectUris = { "http://localhost:6100/#/login" },
+                        PostLogoutRedirectUris = { "http://localhost:6100" },
+                        AllowedCorsOrigins = { "http://localhost:6100" },
+                        RequireConsent = false,
                         AllowedScopes =
                         {
                             StandardScopes.OpenId,

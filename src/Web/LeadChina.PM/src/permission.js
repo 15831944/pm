@@ -4,10 +4,29 @@ import NProgress from 'nprogress' // Progress 进度条
 import 'nprogress/nprogress.css'// Progress 进度条样式
 import { Message } from 'element-ui'
 import { getToken } from '@/utils/auth' // 验权
+import { UserManager } from "oidc-client";
+
+var config = {
+  authority: "http://localhost:6081",
+  client_id: "js",
+  redirect_uri: "http://localhost:6100/#/login",
+  response_type: "code",
+  scope: "openid profile api1",
+  post_logout_redirect_uri: "http://localhost:6100"
+};
+var mgr = new UserManager(config);
 
 const whiteList = ['/login','/404'] // 不重定向白名单
 router.beforeEach((to, from, next) => {
   NProgress.start()
+  mgr.getUser().then(function(user) {
+    if (user) {
+      log("User logged in", user.profile);
+    } else {
+      log("User not logged in");
+    }
+  });
+  debugger
   //如果已经登录
   if (getToken()) {
     if (to.path === '/login') {
@@ -35,7 +54,8 @@ router.beforeEach((to, from, next) => {
     if (whiteList.indexOf(to.path) !== -1) {
       next()
     } else {
-      next('/login')
+      //next('/login')
+      mgr.signinRedirect();
       NProgress.done()
     }
   }

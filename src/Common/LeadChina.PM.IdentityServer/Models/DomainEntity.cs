@@ -4,15 +4,7 @@ namespace LeadChina.PM.Domain.Models
 {
     public abstract class DomainEntity<TKey>
     {
-        private TKey uniqueId;
-
-        public TKey Id
-        {
-            get
-            {
-                return uniqueId;
-            }
-        }
+        public TKey Id { get; }
 
         protected DomainEntity(TKey id)
         {
@@ -21,7 +13,7 @@ namespace LeadChina.PM.Domain.Models
                 throw new ArgumentOutOfRangeException(nameof(id), "The identifier cannot be equal to the default value of the type.");
             }
 
-            uniqueId = id;
+            Id = id;
         }
 
         public override bool Equals(object obj)
@@ -34,7 +26,7 @@ namespace LeadChina.PM.Domain.Models
             }
             else
             {
-                return uniqueId.Equals(entity.Id);
+                return Id.Equals(entity.Id);
             }
         }
 
@@ -60,7 +52,7 @@ namespace LeadChina.PM.Domain.Models
 
         public override int GetHashCode()
         {
-            return uniqueId.GetHashCode();
+            return Id.GetHashCode();
         }
     }
 }

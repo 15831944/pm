@@ -53,6 +53,23 @@
         "UserType": "registered"
       },
       "RequestIdKey": "OcRequestId"
+    },
+    {
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "127.0.0.1",
+          "Port": 6081
+        }
+      ],
+      "DownstreamPathTemplate": "/Account/Login",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "ReRouteIsCaseSensitive": false,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "apikey",
+        "AllowedScopes": []
+      }
     }
   ],
   "GlobalConfiguration": {

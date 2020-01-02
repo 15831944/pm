@@ -21,23 +21,23 @@ namespace LeadChina.PM.IdentityServer
         /// <returns></returns>
         public static IIdentityServerBuilder AddNanoFabricIDS(this IIdentityServerBuilder builder, IConfigurationRoot config)
         {
-            var option = builder.Services.ConfigurePOCO(config.GetSection("IdentityOptions"), () => new IdentityOptions());
+            //var option = builder.Services.ConfigurePOCO(config.GetSection("IdentityOptions"), () => new IdentityOptions());
             builder.Services.AddTransient<IUserRepository, UserInMemoryRepository>();
             builder.Services.AddTransient<IResourceRepository, ResourceInMemoryRepository>();
             builder.Services.AddTransient<IClientRepository, ClientInMemoryRepository>();
             builder.Services.AddTransient<IClientStore, ClientInMemoryRepository>();
             builder.Services.AddTransient<IResourceStore, ResourceInMemoryRepository>();
 
-            builder.AddOperationalStore(options =>
-             {
-                 options.RedisConnectionString = option.Redis;
-                 options.KeyPrefix = option.KeyPrefix;
-             })
-             // 添加Redis缓存 
-             .AddRedisCaching(options =>
-             {
-                 options.RedisConnectionString = option.Redis;
-             });
+            //builder.AddOperationalStore(options =>
+            // {
+            //     options.RedisConnectionString = option.Redis;
+            //     options.KeyPrefix = option.KeyPrefix;
+            // })
+            // // 添加Redis缓存 
+            // .AddRedisCaching(options =>
+            // {
+            //     options.RedisConnectionString = option.Redis;
+            // });
             // services
             builder.Services.AddTransient<IUserService, UserService>();
             builder.Services.AddTransient<IPasswordService, PasswordService>();

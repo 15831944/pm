@@ -16,8 +16,7 @@ namespace LeadChina.PM.IdentityServer.Models
 
         }
 
-        private User(int id, string username ,Instant created, bool isActive)
-            : base(id)
+        private User(int id, string username ,Instant created, bool isActive) : base(id)
         {
             if (string.IsNullOrEmpty(username) || string.IsNullOrWhiteSpace(username))
             {
@@ -30,9 +29,7 @@ namespace LeadChina.PM.IdentityServer.Models
             if (username.Length > 16)
             {
                 throw new ArgumentException($"The username [{nameof(username)}] is too long.");
-            }         
-          
-
+            }
             Username = username;
             Created = created;
             IsActive = isActive;

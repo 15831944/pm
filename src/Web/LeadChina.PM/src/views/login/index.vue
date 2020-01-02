@@ -1,6 +1,6 @@
 <template>
   <div class="login-container">
-    <el-form
+    <!-- <el-form
       class="login-form"
       autocomplete="on"
       :model="loginForm"
@@ -49,92 +49,93 @@
         <span style="margin-right:20px;">username: admin</span>
         <span>password: admin</span>
       </div>
-    </el-form>
+    </el-form> -->
   </div>
 </template>
 
 <script>
-import { isvalidUsername } from "@/utils/validate";
+// import { isvalidUsername } from "@/utils/validate";
 import { UserManager } from "oidc-client";
-
-var config = {
-  authority: "http://localhost:6081",
-  client_id: "js",
-  redirect_uri: "http://localhost:9528",
-  response_type: "code",
-  scope: "openid profile api1",
-  post_logout_redirect_uri: "http://localhost:9528/#login"
-};
-var mgr = new UserManager(config);
-
-mgr.getUser().then(function(user) {
-  if (user) {
-    log("User logged in", user.profile);
-  } else {
-    log("User not logged in");
-  }
-});
 
 export default {
   name: "login",
   data() {
-    const validateUsername = (rule, value, callback) => {
-      if (!isvalidUsername(value)) {
-        callback(new Error("请输入正确的用户名"));
-      } else {
-        callback();
-      }
-    };
-    const validatePass = (rule, value, callback) => {
-      if (value.length < 5) {
-        callback(new Error("密码不能小于5位"));
-      } else {
-        callback();
-      }
-    };
+    // const validateUsername = (rule, value, callback) => {
+    //   if (!isvalidUsername(value)) {
+    //     callback(new Error("请输入正确的用户名"));
+    //   } else {
+    //     callback();
+    //   }
+    // };
+    // const validatePass = (rule, value, callback) => {
+    //   if (value.length < 5) {
+    //     callback(new Error("密码不能小于5位"));
+    //   } else {
+    //     callback();
+    //   }
+    // };
     return {
-      loginForm: {
-        username: "00000",
-        password: "123456"
-      },
-      loginRules: {
-        // username: [{ required: true, trigger: "blur", validator: validateUsername }],
-        username: [{ required: true, trigger: "blur" }],
-        password: [{ required: true, trigger: "blur", validator: validatePass }]
-      },
-      loading: false,
-      pwdType: "password"
+      // loginForm: {
+      //   username: "00000",
+      //   password: "123456"
+      // },
+      // loginRules: {
+      //   // username: [{ required: true, trigger: "blur", validator: validateUsername }],
+      //   username: [{ required: true, trigger: "blur" }],
+      //   password: [{ required: true, trigger: "blur", validator: validatePass }]
+      // },
+      // loading: false,
+      // pwdType: "password"
     };
   },
-  methods: {
-    showPwd() {
-      if (this.pwdType === "password") {
-        this.pwdType = "";
-      } else {
-        this.pwdType = "password";
-      }
-    },
-    handleLogin() {
-      this.$refs.loginForm.validate(valid => {
-        if (valid) {
-          this.loading = true;
-          mgr.signinRedirect().then(_ => {
-            this.$store
-              .dispatch("Login", this.loginForm)
-              .then(() => {
-                this.loading = false;
-                this.$router.push({ path: "/" });
-              })
-              .catch(() => {
-                this.loading = false;
-              });
+  mounted() {
+    const base = this
+    new UserManager({ response_mode: "query" })
+      .signinRedirectCallback()
+      .then(function() {
+        base.$store
+          .dispatch("Login", {
+            username: "23907",
+            password: "123456"
+          })
+          .then(() => {
+            base.$router.push({ path: "/" });
+          })
+          .catch(() => {
+            console.log('保存用户数据出错')
           });
-        } else {
-          console.log("error submit!!");
-          return false;
-        }
+      })
+      .catch(function(e) {
+        console.error(e);
       });
-    }
+  },
+  methods: {
+    // showPwd() {
+    //   if (this.pwdType === "password") {
+    //     this.pwdType = "";
+    //   } else {
+    //     this.pwdType = "password";
+    //   }
+    // },
+    // handleLogin() {
+    //   this.$refs.loginForm.validate(valid => {
+    //     if (valid) {
+    //       this.loading = true;
+    //       this.$store
+    //         .dispatch("Login", this.loginForm)
+    //         .then(() => {
+    //           this.loading = false;
+    //           this.$router.push({ path: "/" });
+    //         })
+    //         .catch(() => {
+    //           this.loading = false;
+    //         });
+    //     } else {
+    //       console.log("error submit!!");
+    //       return false;
+    //     }
+    //   });
+    // }
   }
 };
 </script>

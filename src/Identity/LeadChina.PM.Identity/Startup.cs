@@ -1,4 +1,5 @@
 using AutoMapper;
+using IdentityServer4;
 using LeadChina.PM.AspNetCore;
 using LeadChina.PM.IdentityServer;
 using LeadChina.PM.SysSetting.Application;
@@ -10,6 +11,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using SkyWalking.AspNetCore;
@@ -49,12 +51,6 @@ namespace LeadChina.PM.Identity
                });
             // 添加Consul服务注册模块
             services.AddNanoFabricConsul(Configuration);
-            // AddIdentityServer方法在依赖注入系统中注册IdentityServer，它还会注册一个基于内存存储的运行时状态，
-            // 这对于开发场景非常有用，对于生产场景，您需要一个持久化或共享存储，如数据库或缓存
-            services.AddIdentityServer()
-                // AddDeveloperSigningCredential扩展在每次启动时，为令牌签名创建了一个临时密钥。在生成环境需要一个持久化的密钥
-                //.AddDeveloperSigningCredential()
-                .AddNanoFabricIDS(Configuration);
 
             // Automapper 注入
             // 添加服务
@@ -68,6 +64,30 @@ namespace LeadChina.PM.Identity
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IAccountRepository, AccountRepository>();
             services.AddScoped<IAccountService, AccountService>();
+
+            // AddIdentityServer方法在依赖注入系统中注册IdentityServer，它还会注册一个基于内存存储的运行时状态，
+            // 这对于开发场景非常有用，对于生产场景，您需要一个持久化或共享存储，如数据库或缓存
+            services.AddIdentityServer()
+                // AddDeveloperSigningCredential扩展在每次启动时，为令牌签名创建了一个临时密钥。在生成环境需要一个持久化的密钥
+                .AddDeveloperSigningCredential()
+                .AddNanoFabricIDS(Configuration);
+
+            services.AddAuthentication()
+                .AddOpenIdConnect("oidc", "OpenID Connect", options =>
+                {
+                    options.SignInScheme = IdentityServerConstants.ExternalCookieAuthenticationScheme;
+                    options.SignOutScheme = IdentityServerConstants.SignoutScheme;
+                    options.SaveTokens = true;
+
+                    options.Authority = "https://demo.identityserver.io/";
+                    options.ClientId = "implicit";
+
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        NameClaimType = "name",
+                        RoleClaimType = "role"
+                    };
+                });
 
             // 添加跨域配置
             services.AddCors(options =>

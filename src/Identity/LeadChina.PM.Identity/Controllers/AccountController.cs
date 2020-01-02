@@ -34,15 +34,13 @@ namespace LeadChina.PM.Identity.Controllers
         private readonly IClientStore _clientStore;
         private readonly IAuthenticationSchemeProvider _schemeProvider;
         private readonly IEventService _events;
-        private readonly IAccountService _accountService;
 
         public AccountController(
             IIdentityServerInteractionService interaction,
             IClientStore clientStore,
             IAuthenticationSchemeProvider schemeProvider,
             IEventService events,
-            IUserService users,
-            IAccountService accountService)
+            IUserService users)
         {
             // 如果TestUserStore不在DI容器中，我们将使用全局用户集
             // 在这里您可以插入自己的自定义身份管理库（例如：ASP.NET Identity）
@@ -53,7 +51,6 @@ namespace LeadChina.PM.Identity.Controllers
             _clientStore = clientStore;
             _schemeProvider = schemeProvider;
             _events = events;
-            _accountService = accountService;
         }
 
         /// <summary>
@@ -110,14 +107,10 @@ namespace LeadChina.PM.Identity.Controllers
 
             if (ModelState.IsValid)
             {
-                var user = _accountService.GetAcount(model.Username, model.Password);
-
-                //if (await _users.ValidateCredentialsAsync(model.Username, model.Password))
-                if (user != null)
+                if (await _users.ValidateCredentialsAsync(model.Username, model.Password))
                 {
-                    //var user = await _users.GetAsync(model.Username);
-                    //await _events.RaiseAsync(new UserLoginSuccessEvent(user.Username, user.Id.ToString(), user.Username));
-                    await _events.RaiseAsync(new UserLoginSuccessEvent(user.AccountNo, user.Id.ToString(), user.AccountName));
+                    var user = await _users.GetAsync(model.Username);
+                    await _events.RaiseAsync(new UserLoginSuccessEvent(user.Username, user.Id.ToString(), user.Username));
 
                     // 仅当用户选择“记住我”时才在此处设置显式过期，否则，我们依赖于cookie中间件中配置的过期时间。
                     AuthenticationProperties props = null;
@@ -131,8 +124,7 @@ namespace LeadChina.PM.Identity.Controllers
                     };
 
                     // 使用用户Id和用户名称发出验证cookie
-                    //await HttpContext.SignInAsync(user.Id.ToString(), user.Username, props);
-                    await HttpContext.SignInAsync(user.Id.ToString(), user.AccountName, props);
+                    await HttpContext.SignInAsync(user.Id.ToString(), user.Username, props);
 
                     if (context != null)
                     {
